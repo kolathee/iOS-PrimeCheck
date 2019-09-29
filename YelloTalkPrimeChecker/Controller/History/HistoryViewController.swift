@@ -28,8 +28,9 @@ class HistoryViewController: BaseViewController {
     }
     
     func setupHistorypage() {
-       self.setupNavigation()
-       self.setupOthers()
+        self.setupNavigation()
+        self.setupTableView()
+        self.setupOthers()
     }
 }
 
@@ -55,18 +56,26 @@ extension HistoryViewController {
 
 // MARK: - Setup TableView
 
-extension HistoryViewController: UITableViewDelegate {
+extension HistoryViewController {
     
+    func setupTableView() {
+        let basicTableViewCellNib = UINib(nibName: BasicTableViewCell.nibName, bundle: nil)
+        self.tableView.register(basicTableViewCellNib, forCellReuseIdentifier: BasicTableViewCell.identifier)
+    }
 }
 
 extension HistoryViewController: UITableViewDataSource {
+    
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return 10
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        return UITableViewCell()
+        if let cell = tableView.dequeueReusableCell(withIdentifier: BasicTableViewCell.identifier, for: indexPath) as? BasicTableViewCell {
+            return cell
+        } else {
+            return UITableViewCell()
+        }
     }
-    
     
 }

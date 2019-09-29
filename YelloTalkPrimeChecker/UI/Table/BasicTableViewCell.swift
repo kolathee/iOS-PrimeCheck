@@ -10,6 +10,14 @@ import UIKit
 
 class BasicTableViewCell: UITableViewCell {
 
+    @IBOutlet weak var signView: UIImageView!
+    @IBOutlet weak var historyLabel: UILabel!
+    
+    static var identifier: String { "basicTableViewCell" }
+    static var nibName: String { "BasicTableViewCell" }
+    
+// MARK: - Init
+    
     override func awakeFromNib() {
         super.awakeFromNib()
     }
