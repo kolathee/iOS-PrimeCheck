@@ -17,7 +17,9 @@ class HomeViewController: BaseViewController {
     override var identifier: String { "homeViewController" }
     
     /// View
-    @IBOutlet weak var resultView: UIImageView!
+
+    @IBOutlet weak var resultCircle: UIImageView!
+    @IBOutlet weak var resultLabel: UILabel!
     @IBOutlet weak var numberTextField: UITextField!
     @IBOutlet weak var submitButton: UIButton!
     

@@ -40,7 +40,7 @@ extension HistoryViewController {
     func setupNavigation() {    self.navigationController?.setNavigationBarHidden(self.isNavBarHidden, animated: true)
         self.navigationItem.title = "Search History"
     }
-    
+
 }
 
 // MARK: - Setup Others
