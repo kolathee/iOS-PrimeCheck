@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		392D2A3F02E124C42F84EA59 /* Pods_YelloTalkPrimeCheckerUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 836FDB72844E73AE303C8594 /* Pods_YelloTalkPrimeCheckerUITests.framework */; };
+		66F429BFD30B9F65FD167310 /* Pods_YelloTalkPrimeCheckerTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A56007B5B6384A93FD75F4DE /* Pods_YelloTalkPrimeCheckerTests.framework */; };
+		7E8947BA9E4A8551050BC6DA /* Pods_YelloTalkPrimeChecker.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A546BD81311072E11E4C1674 /* Pods_YelloTalkPrimeChecker.framework */; };
 		A431A4372340904600310D55 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A431A4362340904600310D55 /* AppDelegate.swift */; };
 		A431A4392340904600310D55 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A431A4382340904600310D55 /* SceneDelegate.swift */; };
 		A431A43B2340904600310D55 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A431A43A2340904600310D55 /* ViewController.swift */; };
@@ -35,6 +38,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1326E7758077D411D0BF5E19 /* Pods-YelloTalkPrimeCheckerUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YelloTalkPrimeCheckerUITests.debug.xcconfig"; path = "Target Support Files/Pods-YelloTalkPrimeCheckerUITests/Pods-YelloTalkPrimeCheckerUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		33E76275177215A2EB005E0C /* Pods-YelloTalkPrimeCheckerTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YelloTalkPrimeCheckerTests.debug.xcconfig"; path = "Target Support Files/Pods-YelloTalkPrimeCheckerTests/Pods-YelloTalkPrimeCheckerTests.debug.xcconfig"; sourceTree = "<group>"; };
+		42F686B03A3C3105D1A95791 /* Pods-YelloTalkPrimeChecker.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YelloTalkPrimeChecker.debug.xcconfig"; path = "Target Support Files/Pods-YelloTalkPrimeChecker/Pods-YelloTalkPrimeChecker.debug.xcconfig"; sourceTree = "<group>"; };
+		602A163E91FD947ED09E277D /* Pods-YelloTalkPrimeCheckerTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YelloTalkPrimeCheckerTests.release.xcconfig"; path = "Target Support Files/Pods-YelloTalkPrimeCheckerTests/Pods-YelloTalkPrimeCheckerTests.release.xcconfig"; sourceTree = "<group>"; };
+		836FDB72844E73AE303C8594 /* Pods_YelloTalkPrimeCheckerUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YelloTalkPrimeCheckerUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		879FB7DD8495F7FFE8EB8A21 /* Pods-YelloTalkPrimeChecker.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YelloTalkPrimeChecker.release.xcconfig"; path = "Target Support Files/Pods-YelloTalkPrimeChecker/Pods-YelloTalkPrimeChecker.release.xcconfig"; sourceTree = "<group>"; };
 		A431A4332340904600310D55 /* YelloTalkPrimeChecker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YelloTalkPrimeChecker.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A431A4362340904600310D55 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A431A4382340904600310D55 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -49,6 +58,9 @@
 		A431A4542340904800310D55 /* YelloTalkPrimeCheckerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YelloTalkPrimeCheckerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A431A4582340904800310D55 /* YelloTalkPrimeCheckerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YelloTalkPrimeCheckerUITests.swift; sourceTree = "<group>"; };
 		A431A45A2340904800310D55 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A546BD81311072E11E4C1674 /* Pods_YelloTalkPrimeChecker.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YelloTalkPrimeChecker.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A56007B5B6384A93FD75F4DE /* Pods_YelloTalkPrimeCheckerTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YelloTalkPrimeCheckerTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BD454FF301D2382D6FCF137F /* Pods-YelloTalkPrimeCheckerUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YelloTalkPrimeCheckerUITests.release.xcconfig"; path = "Target Support Files/Pods-YelloTalkPrimeCheckerUITests/Pods-YelloTalkPrimeCheckerUITests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +68,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7E8947BA9E4A8551050BC6DA /* Pods_YelloTalkPrimeChecker.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +76,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				66F429BFD30B9F65FD167310 /* Pods_YelloTalkPrimeCheckerTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,12 +84,27 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				392D2A3F02E124C42F84EA59 /* Pods_YelloTalkPrimeCheckerUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8F4BD1409092FE43330EE616 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				42F686B03A3C3105D1A95791 /* Pods-YelloTalkPrimeChecker.debug.xcconfig */,
+				879FB7DD8495F7FFE8EB8A21 /* Pods-YelloTalkPrimeChecker.release.xcconfig */,
+				33E76275177215A2EB005E0C /* Pods-YelloTalkPrimeCheckerTests.debug.xcconfig */,
+				602A163E91FD947ED09E277D /* Pods-YelloTalkPrimeCheckerTests.release.xcconfig */,
+				1326E7758077D411D0BF5E19 /* Pods-YelloTalkPrimeCheckerUITests.debug.xcconfig */,
+				BD454FF301D2382D6FCF137F /* Pods-YelloTalkPrimeCheckerUITests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		A431A42A2340904600310D55 = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +112,8 @@
 				A431A44C2340904800310D55 /* YelloTalkPrimeCheckerTests */,
 				A431A4572340904800310D55 /* YelloTalkPrimeCheckerUITests */,
 				A431A4342340904600310D55 /* Products */,
+				8F4BD1409092FE43330EE616 /* Pods */,
+				F525B2B023F96C4D6B9CEDF4 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -128,6 +159,16 @@
 			path = YelloTalkPrimeCheckerUITests;
 			sourceTree = "<group>";
 		};
+		F525B2B023F96C4D6B9CEDF4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A546BD81311072E11E4C1674 /* Pods_YelloTalkPrimeChecker.framework */,
+				A56007B5B6384A93FD75F4DE /* Pods_YelloTalkPrimeCheckerTests.framework */,
+				836FDB72844E73AE303C8594 /* Pods_YelloTalkPrimeCheckerUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -135,9 +176,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A431A45D2340904800310D55 /* Build configuration list for PBXNativeTarget "YelloTalkPrimeChecker" */;
 			buildPhases = (
+				D82B3A91B60176417689D981 /* [CP] Check Pods Manifest.lock */,
 				A431A42F2340904600310D55 /* Sources */,
 				A431A4302340904600310D55 /* Frameworks */,
 				A431A4312340904600310D55 /* Resources */,
+				ED2B4BCC2C36A20CA140F8CB /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -152,6 +195,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A431A4602340904800310D55 /* Build configuration list for PBXNativeTarget "YelloTalkPrimeCheckerTests" */;
 			buildPhases = (
+				5C3E6D7CF21E57F508A364F4 /* [CP] Check Pods Manifest.lock */,
 				A431A4452340904800310D55 /* Sources */,
 				A431A4462340904800310D55 /* Frameworks */,
 				A431A4472340904800310D55 /* Resources */,
@@ -170,6 +214,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A431A4632340904800310D55 /* Build configuration list for PBXNativeTarget "YelloTalkPrimeCheckerUITests" */;
 			buildPhases = (
+				3DA27BA9F84CB8A9717614D2 /* [CP] Check Pods Manifest.lock */,
 				A431A4502340904800310D55 /* Sources */,
 				A431A4512340904800310D55 /* Frameworks */,
 				A431A4522340904800310D55 /* Resources */,
@@ -253,6 +298,92 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3DA27BA9F84CB8A9717614D2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-YelloTalkPrimeCheckerUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5C3E6D7CF21E57F508A364F4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-YelloTalkPrimeCheckerTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D82B3A91B60176417689D981 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-YelloTalkPrimeChecker-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		ED2B4BCC2C36A20CA140F8CB /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-YelloTalkPrimeChecker/Pods-YelloTalkPrimeChecker-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-YelloTalkPrimeChecker/Pods-YelloTalkPrimeChecker-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-YelloTalkPrimeChecker/Pods-YelloTalkPrimeChecker-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		A431A42F2340904600310D55 /* Sources */ = {
@@ -432,6 +563,7 @@
 		};
 		A431A45E2340904800310D55 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 42F686B03A3C3105D1A95791 /* Pods-YelloTalkPrimeChecker.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -450,6 +582,7 @@
 		};
 		A431A45F2340904800310D55 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 879FB7DD8495F7FFE8EB8A21 /* Pods-YelloTalkPrimeChecker.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -468,6 +601,7 @@
 		};
 		A431A4612340904800310D55 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 33E76275177215A2EB005E0C /* Pods-YelloTalkPrimeCheckerTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -490,6 +624,7 @@
 		};
 		A431A4622340904800310D55 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 602A163E91FD947ED09E277D /* Pods-YelloTalkPrimeCheckerTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -512,6 +647,7 @@
 		};
 		A431A4642340904800310D55 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1326E7758077D411D0BF5E19 /* Pods-YelloTalkPrimeCheckerUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -532,6 +668,7 @@
 		};
 		A431A4652340904800310D55 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BD454FF301D2382D6FCF137F /* Pods-YelloTalkPrimeCheckerUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;

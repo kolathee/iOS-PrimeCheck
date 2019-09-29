@@ -1,0 +1,6 @@
+framework module Pods_YelloTalkPrimeChecker {
+  umbrella header "Pods-YelloTalkPrimeChecker-umbrella.h"
+
+  export *
+  module * { export * }
+}
