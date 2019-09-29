@@ -21,6 +21,8 @@ class HomeViewController: BaseViewController {
     @IBOutlet weak var numberTextField: UITextField!
     @IBOutlet weak var submitButton: UIButton!
     
+    var isNavBarHidden = true
+    
     /// ViewModel & Data
     let HomeVM = HomeViewModel()
 
@@ -35,20 +37,32 @@ class HomeViewController: BaseViewController {
         self.setupNavigation()
         self.setupOthers()
     }
+    
+// MARK: - Actions
+    
+    @IBAction func submitButtonTapped(_ sender: Any) {
+        /// Create HistoryVC
+        let historyVC = HistoryViewController.shared.initiateView()
+        self.navigationController?.pushViewController(historyVC, animated: true)
+    }
+    
 }
 
 // MARK: - Setup Navigation
+
 extension HomeViewController {
     
     func setupNavigation() {
-        
+        self.navigationController?.setNavigationBarHidden(self.isNavBarHidden, animated: true)
     }
+    
 }
 
 // MARK: - Setup Others
 extension HomeViewController {
     
     func setupOthers() {
-        /// For future implement
+        /// Submit Button
+        submitButton.rounded(by: 5)
     }
 }

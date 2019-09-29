@@ -44,6 +44,9 @@
                                         <state key="normal" title="Submit">
                                             <color key="titleColor" red="0.38182075777202074" green="0.38182075777202074" blue="0.38182075777202074" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         </state>
+                                        <connections>
+                                            <action selector="submitButtonTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="pSK-b4-HVd"/>
+                                        </connections>
                                     </button>
                                 </subviews>
                                 <constraints>

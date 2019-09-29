@@ -20,9 +20,9 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         /// Set root view
         
         let mainVC = HomeViewController.shared.initiateView()
-//        let navigationVC = UINavigationController(rootViewController: mainVC)
+        let navigationVC = UINavigationController(rootViewController: mainVC)
             
-        window.rootViewController = mainVC
+        window.rootViewController = navigationVC
         window.makeKeyAndVisible()
         self.window = window
     }

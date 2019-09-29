@@ -17,11 +17,38 @@ class HistoryViewController: BaseViewController {
     
     /// View
     @IBOutlet weak var tableView: UITableView!
+    
+    var isNavBarHidden = false
 
 // MARK: - Init
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        self.setupHistorypage()
+    }
+    
+    func setupHistorypage() {
+       self.setupNavigation()
+       self.setupOthers()
+    }
+}
+
+// MARK: - Setup Navigation
+
+extension HistoryViewController {
+    
+    func setupNavigation() {    self.navigationController?.setNavigationBarHidden(self.isNavBarHidden, animated: true)
+        self.navigationItem.title = "Search History"
+    }
+    
+}
+
+// MARK: - Setup Others
+
+extension HistoryViewController {
+    
+    func setupOthers() {
+        /// For future implement
     }
     
 }
@@ -38,7 +65,7 @@ extension HistoryViewController: UITableViewDataSource {
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        
+        return UITableViewCell()
     }
     
     
