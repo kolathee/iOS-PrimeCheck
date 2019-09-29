@@ -20,6 +20,8 @@
 		A431A47023409A7600310D55 /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = A431A46F23409A7600310D55 /* Constant.swift */; };
 		A431A47323409BF500310D55 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A431A47223409BF500310D55 /* HomeViewController.swift */; };
 		A431A47523409C0B00310D55 /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A431A47423409C0B00310D55 /* HomeViewModel.swift */; };
+		A44DADE123409F6F00C64E46 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A44DADE023409F6F00C64E46 /* BaseViewController.swift */; };
+		A44DADE22340B5A000C64E46 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A431A4382340904600310D55 /* SceneDelegate.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -62,6 +64,7 @@
 		A431A46F23409A7600310D55 /* Constant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constant.swift; sourceTree = "<group>"; };
 		A431A47223409BF500310D55 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		A431A47423409C0B00310D55 /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
+		A44DADE023409F6F00C64E46 /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
 		A546BD81311072E11E4C1674 /* Pods_YelloTalkPrimeChecker.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YelloTalkPrimeChecker.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A56007B5B6384A93FD75F4DE /* Pods_YelloTalkPrimeCheckerTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YelloTalkPrimeCheckerTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BD454FF301D2382D6FCF137F /* Pods-YelloTalkPrimeCheckerUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YelloTalkPrimeCheckerUITests.release.xcconfig"; path = "Target Support Files/Pods-YelloTalkPrimeCheckerUITests/Pods-YelloTalkPrimeCheckerUITests.release.xcconfig"; sourceTree = "<group>"; };
@@ -143,7 +146,6 @@
 				A431A46923409A0F00310D55 /* UI */,
 				A431A468234099E200310D55 /* View */,
 				A431A467234099D900310D55 /* Controller */,
-				A431A43C2340904600310D55 /* Main.storyboard */,
 				A431A43F2340904800310D55 /* Assets.xcassets */,
 				A431A4412340904800310D55 /* LaunchScreen.storyboard */,
 				A431A4442340904800310D55 /* Info.plist */,
@@ -172,6 +174,8 @@
 		A431A467234099D900310D55 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				A431A43C2340904600310D55 /* Main.storyboard */,
+				A44DADE023409F6F00C64E46 /* BaseViewController.swift */,
 				A431A47123409BCB00310D55 /* Home */,
 			);
 			path = Controller;
@@ -268,6 +272,7 @@
 				A431A4452340904800310D55 /* Sources */,
 				A431A4462340904800310D55 /* Frameworks */,
 				A431A4472340904800310D55 /* Resources */,
+				2230E15BC6961399A2DF5ACB /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -369,6 +374,23 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		2230E15BC6961399A2DF5ACB /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-YelloTalkPrimeCheckerTests/Pods-YelloTalkPrimeCheckerTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-YelloTalkPrimeCheckerTests/Pods-YelloTalkPrimeCheckerTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-YelloTalkPrimeCheckerTests/Pods-YelloTalkPrimeCheckerTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		3DA27BA9F84CB8A9717614D2 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -464,6 +486,7 @@
 				A431A47023409A7600310D55 /* Constant.swift in Sources */,
 				A431A47523409C0B00310D55 /* HomeViewModel.swift in Sources */,
 				A431A47323409BF500310D55 /* HomeViewController.swift in Sources */,
+				A44DADE123409F6F00C64E46 /* BaseViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -472,6 +495,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A431A44E2340904800310D55 /* YelloTalkPrimeCheckerTests.swift in Sources */,
+				A44DADE22340B5A000C64E46 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -728,6 +752,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
+					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = Cup.YelloTalkPrimeCheckerUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";

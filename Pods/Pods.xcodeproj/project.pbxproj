@@ -11,21 +11,23 @@
 		0431EFBC3255E810AE4F1D7F3810744F /* Constrain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 945DA5BAB393B51567D2240B011DD272 /* Constrain.swift */; };
 		0892D14FE7A3452423E9129D7917664B /* MatchError.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE8A494614B88B5FA818A515408DD07A /* MatchError.swift */; settings = {COMPILER_FLAGS = "-DPRODUCT_NAME=Nimble/Nimble"; }; };
 		092256E303520E50ADEFF25EEB4E73EE /* CwlCatchException.h in Headers */ = {isa = PBXBuildFile; fileRef = 0C92329B0ECF46887BF657D9C66E4F15 /* CwlCatchException.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		10C125AD4CC98CDEE8D77DACE8EC5035 /* Pods-YelloTalkPrimeChecker-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 16E2FC4C688118F039BFC025E1688DA9 /* Pods-YelloTalkPrimeChecker-dummy.m */; };
+		0E66F1181EB6828FDFFC52F404F3A5C0 /* Pods-YelloTalkPrimeCheckerTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = BD1361E861FD0D08E2542D4EF04530D0 /* Pods-YelloTalkPrimeCheckerTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		13D2A4D59DD9612E1AA7F3182A342162 /* mach_excServer.c in Sources */ = {isa = PBXBuildFile; fileRef = BCE3EB45260927F34B85CD64C6F96F9F /* mach_excServer.c */; settings = {COMPILER_FLAGS = "-DPRODUCT_NAME=Nimble/Nimble"; }; };
 		192A3F8BEC1A99FD8712D3E09724D72C /* FailureMessage.swift in Sources */ = {isa = PBXBuildFile; fileRef = D49AD87BE88AD319B33EF9D62A148EBA /* FailureMessage.swift */; settings = {COMPILER_FLAGS = "-DPRODUCT_NAME=Nimble/Nimble"; }; };
+		1F19CDCA747497E6B58E6EC36A22EB34 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		213FD1EDA9D248774F292ED67B0CD2C7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
 		22CE63D0329339E7B3CBC0113CD833E4 /* LayoutProxy+TypeErasure.swift in Sources */ = {isa = PBXBuildFile; fileRef = 062C57E6992272CF5B0A890AC2D91225 /* LayoutProxy+TypeErasure.swift */; };
 		234849AD309265FD107C74357FC8C0CF /* DSL+Wait.swift in Sources */ = {isa = PBXBuildFile; fileRef = A73BE782ED2EBEBA96AB10C995253367 /* DSL+Wait.swift */; settings = {COMPILER_FLAGS = "-DPRODUCT_NAME=Nimble/Nimble"; }; };
 		2391FFD3230B40E2348B5257D6296BBB /* BeGreaterThanOrEqualTo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3659882708BFEE3531086D4874FA3089 /* BeGreaterThanOrEqualTo.swift */; settings = {COMPILER_FLAGS = "-DPRODUCT_NAME=Nimble/Nimble"; }; };
-		2444D7C40615809EF3BC700B1BED93AB /* Pods-YelloTalkPrimeCheckerUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8B8471236AC19660D5BC3B5EF5803355 /* Pods-YelloTalkPrimeCheckerUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2444D7C40615809EF3BC700B1BED93AB /* Pods-YelloTalkPrimeCheckerUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B08C10464041390F5F01B10F1212B7B1 /* Pods-YelloTalkPrimeCheckerUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		26B9FEAB3DE0C8B91709D53571752A3B /* MatcherFunc.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBF20235C3267C10759A2178FBF3E219 /* MatcherFunc.swift */; settings = {COMPILER_FLAGS = "-DPRODUCT_NAME=Nimble/Nimble"; }; };
-		29B85CD11095CA59D41585B58525E80D /* Pods-YelloTalkPrimeChecker-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C98357149EF152D8911D8BC035642AF4 /* Pods-YelloTalkPrimeChecker-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		2B350015B9F7546D0769649EE12D7D1A /* NimbleXCTestHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF78447CF19E8CC09CA040E00FB70A5D /* NimbleXCTestHandler.swift */; settings = {COMPILER_FLAGS = "-DPRODUCT_NAME=Nimble/Nimble"; }; };
 		2C347167B7B5A220481FA1899A69A27A /* ConstraintGroup.swift in Sources */ = {isa = PBXBuildFile; fileRef = A77D0BD5138B16283BB782B9DA218B09 /* ConstraintGroup.swift */; };
 		3262B230B938C8D6522790093FEAF69D /* EndWith.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5CDC0C6612543C430E7A029915871EB /* EndWith.swift */; settings = {COMPILER_FLAGS = "-DPRODUCT_NAME=Nimble/Nimble"; }; };
 		330E8E4A6596ED625E9B34C94CC4136E /* Await.swift in Sources */ = {isa = PBXBuildFile; fileRef = 881775EF8134E24C05AD624BB11555B2 /* Await.swift */; settings = {COMPILER_FLAGS = "-DPRODUCT_NAME=Nimble/Nimble"; }; };
 		3460FEA0CEADB05D3B56C2E1CAF9590C /* ElementsEqual.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4EBA9EF760E2B7716732F8774253B8C /* ElementsEqual.swift */; settings = {COMPILER_FLAGS = "-DPRODUCT_NAME=Nimble/Nimble"; }; };
 		34F39C271054D560B43F8990372592A9 /* LayoutGuide.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45D20A66E5D9352DEF06768126A9EFDD /* LayoutGuide.swift */; };
+		365A5154FAAD0ACDAE639448318EB088 /* Pods-YelloTalkPrimeChecker-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 723413C863C762E9A98B64E8AAE0CF48 /* Pods-YelloTalkPrimeChecker-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		39133A7716CEDEB690A7DA9D12C45C4D /* CwlDarwinDefinitions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C922B40D68AB411E96562603E9AF43B /* CwlDarwinDefinitions.swift */; settings = {COMPILER_FLAGS = "-DPRODUCT_NAME=Nimble/Nimble"; }; };
 		3BD0C370BBCEBDEA68B8EDBD969370EB /* mach_excServer.h in Headers */ = {isa = PBXBuildFile; fileRef = 1A7ABC504A8D09CE09CEB314C62A2CE8 /* mach_excServer.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		4203EF96811AE514D64AE069311B1575 /* AllPass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F33BF92C679D1B3DB9587898AC2D010 /* AllPass.swift */; settings = {COMPILER_FLAGS = "-DPRODUCT_NAME=Nimble/Nimble"; }; };
@@ -40,7 +42,6 @@
 		52AB6461CAA9481D24835F3E48301FC6 /* BeIdenticalTo.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBD9B57B2591E7EE23FA85139D8550BB /* BeIdenticalTo.swift */; settings = {COMPILER_FLAGS = "-DPRODUCT_NAME=Nimble/Nimble"; }; };
 		55683C80A15ADB61A43D85BFC22B57B2 /* Size.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D5366BEE66946F5DE094CF6D65C57FE /* Size.swift */; };
 		5578F928AEFA8B2B7CC542033590DFD6 /* Match.swift in Sources */ = {isa = PBXBuildFile; fileRef = 373876C54C741FF168CF472FD4D969F2 /* Match.swift */; settings = {COMPILER_FLAGS = "-DPRODUCT_NAME=Nimble/Nimble"; }; };
-		58D58849290F3029BAA411BB7B8E4409 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
 		5B6F70DDD4C63CF6ED95291BCB633494 /* ContainElementSatisfying.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06A25DAAFAFF8C70D1C0571389C346DA /* ContainElementSatisfying.swift */; settings = {COMPILER_FLAGS = "-DPRODUCT_NAME=Nimble/Nimble"; }; };
 		5C7AE657DE96861F05DAA7B445C5A28C /* Coefficients.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D26DD930C0717F9C938D34A5036335C /* Coefficients.swift */; };
 		602E3758C0EF64AF6B7FCEA05BF5B9B9 /* Expectation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 350AF9FECBFF3024DD711D9778CFB91E /* Expectation.swift */; settings = {COMPILER_FLAGS = "-DPRODUCT_NAME=Nimble/Nimble"; }; };
@@ -72,10 +73,10 @@
 		9F70369EF71BD9ABAFF687AF532CC20D /* CwlMachBadInstructionHandler.h in Headers */ = {isa = PBXBuildFile; fileRef = 38C75BD8F641575205F0D8865B4EAFAE /* CwlMachBadInstructionHandler.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		9FDCC7A5B398F92EE01CDB10A2CA03DC /* Distribute.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83451B785E035B9584A6E5562673BD4A /* Distribute.swift */; };
 		A9996A6303084D17B9C439CB132A1F69 /* DSL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15C9341CE70F8EBDB9749DAEE9E94501 /* DSL.swift */; settings = {COMPILER_FLAGS = "-DPRODUCT_NAME=Nimble/Nimble"; }; };
+		ABD32133AD8B36B27DA34556BF28DD7C /* Pods-YelloTalkPrimeChecker-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 687C08740A999D9085BFE13C0C15A01C /* Pods-YelloTalkPrimeChecker-dummy.m */; };
 		AC3285CF7CFB61E0ABE4048FE5BCD4ED /* Dimension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 674112187919EA07AC765C03348BF34F /* Dimension.swift */; };
 		AC5C12FAEE0412375C04322F39CAEEDD /* Compound.swift in Sources */ = {isa = PBXBuildFile; fileRef = D62E570CB3E2472A456FF9B8D5ADEDE5 /* Compound.swift */; };
 		AD69407E2FA1D39A9E09248052F2D81B /* ExpectationMessage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DBF686BC444AD99868652BF577812CA /* ExpectationMessage.swift */; settings = {COMPILER_FLAGS = "-DPRODUCT_NAME=Nimble/Nimble"; }; };
-		AEA1608C200A67D70846FD211CA4653A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
 		B22BBA186319E555F033AD9CD2928257 /* Context.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E4967D22515D271183451C1C1E5F0F9 /* Context.swift */; };
 		B2A65EEDB5D5EC246EA68E10964FF7B3 /* ThrowError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65631C67B794934983167AF3967CB3B7 /* ThrowError.swift */; settings = {COMPILER_FLAGS = "-DPRODUCT_NAME=Nimble/Nimble"; }; };
 		B4058A2AA8486E9879F113E6F67B9679 /* AdapterProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0746F9833C7A6C534F7657583248811C /* AdapterProtocols.swift */; settings = {COMPILER_FLAGS = "-DPRODUCT_NAME=Nimble/Nimble"; }; };
@@ -93,7 +94,6 @@
 		C99BBC3F70E056CB6A3CC0516318939D /* AssertionDispatcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15C6282BED39DDB94A47CA63F7383457 /* AssertionDispatcher.swift */; settings = {COMPILER_FLAGS = "-DPRODUCT_NAME=Nimble/Nimble"; }; };
 		CD6B1F146B0E157FE5B9CAFFAE77A5B5 /* Nimble-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5795663021523641A0E1817BF846E677 /* Nimble-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		CEE8D31A4E76BB7B350BF2A7175D4BC2 /* NMBExceptionCapture.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A2576BE5BD9581F86B7670CF5E26906 /* NMBExceptionCapture.m */; settings = {COMPILER_FLAGS = "-DPRODUCT_NAME=Nimble/Nimble"; }; };
-		CF4F070F33C0D1EE87CBF106200220D1 /* Pods-YelloTalkPrimeCheckerTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BAC873AC1F9F6E4F5D5CA8A6C265DBF /* Pods-YelloTalkPrimeCheckerTests-dummy.m */; };
 		CF9218FF56D8EE43681150A3E1635C9A /* ToSucceed.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E2B3A85B32C3CAE18FA8FAF60FF458F /* ToSucceed.swift */; settings = {COMPILER_FLAGS = "-DPRODUCT_NAME=Nimble/Nimble"; }; };
 		D34D0540ADCBF163575B6B5444B1AAF6 /* Contain.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFD786E41371C7D8EDB6102FB617A0C4 /* Contain.swift */; settings = {COMPILER_FLAGS = "-DPRODUCT_NAME=Nimble/Nimble"; }; };
 		D496217CC474887D11037655BE63A40F /* LayoutSupportProxy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EAA60DC8E10C3F8BD74970BF8C5A3E5 /* LayoutSupportProxy.swift */; };
@@ -101,7 +101,7 @@
 		D9D6150D329A87CBB415FD349F0C50FD /* SourceLocation.swift in Sources */ = {isa = PBXBuildFile; fileRef = FECE343F98678A6CE21225C953DB5749 /* SourceLocation.swift */; settings = {COMPILER_FLAGS = "-DPRODUCT_NAME=Nimble/Nimble"; }; };
 		DB84342A0C0DEABBF7F729DE55225D82 /* XCTestObservationCenter+Register.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E21532E75327AB8698382BCBCB1A04A /* XCTestObservationCenter+Register.m */; settings = {COMPILER_FLAGS = "-DPRODUCT_NAME=Nimble/Nimble"; }; };
 		DCD198D49C0A198A09525B7688EE3BC9 /* Async.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95BF02A5D879760AA0A809B2B40DE5B3 /* Async.swift */; settings = {COMPILER_FLAGS = "-DPRODUCT_NAME=Nimble/Nimble"; }; };
-		DE6D4A36921129340A77C7A036C95F15 /* Pods-YelloTalkPrimeCheckerUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E4F5C2C89F91B6928AF932571650070C /* Pods-YelloTalkPrimeCheckerUITests-dummy.m */; };
+		DE6D4A36921129340A77C7A036C95F15 /* Pods-YelloTalkPrimeCheckerUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A91671046DF8FE006330B9EC9FC71B7 /* Pods-YelloTalkPrimeCheckerUITests-dummy.m */; };
 		E0EAC85F7ACFAD998B14FCE66144000E /* NMBStringify.h in Headers */ = {isa = PBXBuildFile; fileRef = 7B7DACED944710FC66628D4B963BCEBB /* NMBStringify.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		E24660514D4232A0A95D8464FC13A48B /* Property.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DE743DB8696B511123274E4EDF09A8D /* Property.swift */; };
 		E453BB8128EF0219CC03F1C2535F627A /* Cartography-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 44297C60BAE50CC1C73D95A549036385 /* Cartography-dummy.m */; };
@@ -110,11 +110,11 @@
 		ECCA1FA570A912E8CDB54EB843F1D030 /* NimbleEnvironment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87B21ED523B14892C36A4FE33FAA7278 /* NimbleEnvironment.swift */; settings = {COMPILER_FLAGS = "-DPRODUCT_NAME=Nimble/Nimble"; }; };
 		EFB9CC9267297D8104141A4046AAD14E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
 		EFE26B035C606EF63FAB39B8BBB12324 /* LayoutItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9381D4741329C1A0D0152D3B7C50A18F /* LayoutItem.swift */; };
-		F06E628F9F6B7DA33C15664C2843DC7B /* Pods-YelloTalkPrimeCheckerTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0E9A312509F1B60550296C80BFE87F2A /* Pods-YelloTalkPrimeCheckerTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F27A7DE93F66B0C12B4C646D99F5B9F4 /* CwlCatchException.m in Sources */ = {isa = PBXBuildFile; fileRef = E2AA693F0717B72F4236C231894EA697 /* CwlCatchException.m */; settings = {COMPILER_FLAGS = "-DPRODUCT_NAME=Nimble/Nimble"; }; };
 		F310B21703A7BC438A09DDB96670583F /* AssertionRecorder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B836A3C74E79EC368C1CF3FEA0B4820 /* AssertionRecorder.swift */; settings = {COMPILER_FLAGS = "-DPRODUCT_NAME=Nimble/Nimble"; }; };
 		F4877B3857C780DCDB7F413A03F95600 /* BeCloseTo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64D8B7BC8D3F091354474B4BBDBF5D49 /* BeCloseTo.swift */; settings = {COMPILER_FLAGS = "-DPRODUCT_NAME=Nimble/Nimble"; }; };
 		F78E35D04F09485FA5DFA72FE1AD5AB2 /* NMBStringify.m in Sources */ = {isa = PBXBuildFile; fileRef = 5243AF4109E6830237D8558973E1CC75 /* NMBStringify.m */; settings = {COMPILER_FLAGS = "-DPRODUCT_NAME=Nimble/Nimble"; }; };
+		F7CD8AD39286CB4AD5A90E8678320A8F /* Pods-YelloTalkPrimeCheckerTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A77AF170CEE16C2255D6994E137F9AF6 /* Pods-YelloTalkPrimeCheckerTests-dummy.m */; };
 		F92571315920B12CE657B195DA15ECD6 /* LayoutProxy.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8F35384125C5B05720E663756BE449B /* LayoutProxy.swift */; };
 		F9C03E29F41DB4ED5901C128D165DC56 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
 		F9E85548BF1EF8C5035BAF92233C34B6 /* RaisesException.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA074A1249123FC3C11F2A9A05895534 /* RaisesException.swift */; settings = {COMPILER_FLAGS = "-DPRODUCT_NAME=Nimble/Nimble"; }; };
@@ -122,6 +122,20 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		3BA795CED243376921DFF67D34BB7931 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0F6BC40B15AF4D3484A113BACF5FEE47;
+			remoteInfo = "Pods-YelloTalkPrimeChecker";
+		};
+		42189AE751F497AAE7421490B9C41918 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8FBDBAAAB58D03FB5BB194A7F5231422;
+			remoteInfo = Cartography;
+		};
 		75D30AC53A683C882539A9621D04F1B9 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
@@ -129,21 +143,7 @@
 			remoteGlobalIDString = 0F6BC40B15AF4D3484A113BACF5FEE47;
 			remoteInfo = "Pods-YelloTalkPrimeChecker";
 		};
-		78D40FAF25E2A9DB1E56C7A557336063 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 0F6BC40B15AF4D3484A113BACF5FEE47;
-			remoteInfo = "Pods-YelloTalkPrimeChecker";
-		};
-		B4C8B2EE0D742F1990C60D7ADFF728DE /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 8FBDBAAAB58D03FB5BB194A7F5231422;
-			remoteInfo = Cartography;
-		};
-		FC50205A88D000B7433E271BD8F562F3 /* PBXContainerItemProxy */ = {
+		E06825D3F43A9D6B738EA69CCA26C6A6 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
@@ -153,8 +153,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0035733FDF110963C628F48932E2C2E0 /* Pods-YelloTalkPrimeCheckerUITests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-YelloTalkPrimeCheckerUITests-Info.plist"; sourceTree = "<group>"; };
 		00BE7640DAAD7B5F2C67DB405FDB6378 /* Pods_YelloTalkPrimeChecker.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_YelloTalkPrimeChecker.framework; path = "Pods-YelloTalkPrimeChecker.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		016E9E13C9669A4CB6A0A0DBDA9E52FE /* LayoutSupport.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LayoutSupport.swift; path = Cartography/LayoutSupport.swift; sourceTree = "<group>"; };
+		01A004A9F0BB52E58C2E6B8D2D9398F7 /* Pods-YelloTalkPrimeChecker-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-YelloTalkPrimeChecker-frameworks.sh"; sourceTree = "<group>"; };
 		062C57E6992272CF5B0A890AC2D91225 /* LayoutProxy+TypeErasure.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "LayoutProxy+TypeErasure.swift"; path = "Cartography/LayoutProxy+TypeErasure.swift"; sourceTree = "<group>"; };
 		06A25DAAFAFF8C70D1C0571389C346DA /* ContainElementSatisfying.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ContainElementSatisfying.swift; path = Sources/Nimble/Matchers/ContainElementSatisfying.swift; sourceTree = "<group>"; };
 		074669E4451DE6287999D4C369F47589 /* CwlCatchBadInstruction.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CwlCatchBadInstruction.swift; path = Carthage/Checkouts/CwlPreconditionTesting/Sources/CwlPreconditionTesting/CwlCatchBadInstruction.swift; sourceTree = "<group>"; };
@@ -162,28 +164,20 @@
 		0BA6437323EE0B56BFA52FF3BC8C1FC9 /* Nimble.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Nimble.modulemap; sourceTree = "<group>"; };
 		0C92329B0ECF46887BF657D9C66E4F15 /* CwlCatchException.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CwlCatchException.h; path = Carthage/Checkouts/CwlPreconditionTesting/Dependencies/CwlCatchException/Sources/CwlCatchExceptionSupport/include/CwlCatchException.h; sourceTree = "<group>"; };
 		0DD453534C9B06600B008A5E425D1C7C /* Pods_YelloTalkPrimeCheckerUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_YelloTalkPrimeCheckerUITests.framework; path = "Pods-YelloTalkPrimeCheckerUITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		0E9A312509F1B60550296C80BFE87F2A /* Pods-YelloTalkPrimeCheckerTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-YelloTalkPrimeCheckerTests-umbrella.h"; sourceTree = "<group>"; };
 		1351646975A05087518EBA3978070113 /* Cartography-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Cartography-umbrella.h"; sourceTree = "<group>"; };
 		15C6282BED39DDB94A47CA63F7383457 /* AssertionDispatcher.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AssertionDispatcher.swift; path = Sources/Nimble/Adapters/AssertionDispatcher.swift; sourceTree = "<group>"; };
 		15C9341CE70F8EBDB9749DAEE9E94501 /* DSL.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DSL.swift; path = Sources/Nimble/DSL.swift; sourceTree = "<group>"; };
 		1688A45EE5F8144193E1524F9ADC614B /* PostNotification.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PostNotification.swift; path = Sources/Nimble/Matchers/PostNotification.swift; sourceTree = "<group>"; };
-		16E2FC4C688118F039BFC025E1688DA9 /* Pods-YelloTalkPrimeChecker-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-YelloTalkPrimeChecker-dummy.m"; sourceTree = "<group>"; };
 		1A7ABC504A8D09CE09CEB314C62A2CE8 /* mach_excServer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = mach_excServer.h; path = Carthage/Checkouts/CwlPreconditionTesting/Sources/CwlMachBadInstructionHandler/mach_excServer.h; sourceTree = "<group>"; };
+		1D2730359BC7BA0AADBE16F6C6F12411 /* Pods-YelloTalkPrimeCheckerUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-YelloTalkPrimeCheckerUITests-acknowledgements.plist"; sourceTree = "<group>"; };
 		1DC393A15FEE60C158153DB79FBD1B89 /* Cartography-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Cartography-Info.plist"; sourceTree = "<group>"; };
 		1E21532E75327AB8698382BCBCB1A04A /* XCTestObservationCenter+Register.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "XCTestObservationCenter+Register.m"; path = "Sources/NimbleObjectiveC/XCTestObservationCenter+Register.m"; sourceTree = "<group>"; };
-		20FC4FAF7A081CBABDBD6ECA6B992DA6 /* Pods-YelloTalkPrimeCheckerUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-YelloTalkPrimeCheckerUITests.debug.xcconfig"; sourceTree = "<group>"; };
-		213C048E57AD59437F38B439114AC613 /* Pods-YelloTalkPrimeCheckerUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-YelloTalkPrimeCheckerUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		2C27852B70F72A8AF760CA52978C9608 /* Pods-YelloTalkPrimeChecker.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-YelloTalkPrimeChecker.modulemap"; sourceTree = "<group>"; };
 		2DE743DB8696B511123274E4EDF09A8D /* Property.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Property.swift; path = Cartography/Property.swift; sourceTree = "<group>"; };
 		2E2B3A85B32C3CAE18FA8FAF60FF458F /* ToSucceed.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ToSucceed.swift; path = Sources/Nimble/Matchers/ToSucceed.swift; sourceTree = "<group>"; };
-		2F7F9162CDFFD48E2E04EFA96BFE005F /* Pods-YelloTalkPrimeCheckerTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-YelloTalkPrimeCheckerTests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		2FC46674F3B2C4FA3990D59140E70C67 /* Priority.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Priority.swift; path = Cartography/Priority.swift; sourceTree = "<group>"; };
 		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		32847670FB39F4B415D7C60235AE385B /* Pods-YelloTalkPrimeCheckerTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-YelloTalkPrimeCheckerTests-acknowledgements.plist"; sourceTree = "<group>"; };
 		32FD5C5DA1E53049D69BB66B682D4579 /* BeGreaterThan.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BeGreaterThan.swift; path = Sources/Nimble/Matchers/BeGreaterThan.swift; sourceTree = "<group>"; };
 		332287F23F3D94A2C923AE56291FA065 /* Cartography.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Cartography.xcconfig; sourceTree = "<group>"; };
-		33F9DE5D7ABB241DD15B0A85F0BD8A39 /* Pods-YelloTalkPrimeCheckerUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-YelloTalkPrimeCheckerUITests-acknowledgements.plist"; sourceTree = "<group>"; };
-		34D75AC95C7C1F59BEDBBC8663EFDB3D /* Pods-YelloTalkPrimeChecker.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-YelloTalkPrimeChecker.release.xcconfig"; sourceTree = "<group>"; };
 		350AF9FECBFF3024DD711D9778CFB91E /* Expectation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Expectation.swift; path = Sources/Nimble/Expectation.swift; sourceTree = "<group>"; };
 		3659882708BFEE3531086D4874FA3089 /* BeGreaterThanOrEqualTo.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BeGreaterThanOrEqualTo.swift; path = Sources/Nimble/Matchers/BeGreaterThanOrEqualTo.swift; sourceTree = "<group>"; };
 		373876C54C741FF168CF472FD4D969F2 /* Match.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Match.swift; path = Sources/Nimble/Matchers/Match.swift; sourceTree = "<group>"; };
@@ -192,12 +186,14 @@
 		3F35AB9240A2A0E92E500B7C10F53850 /* HaveCount.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HaveCount.swift; path = Sources/Nimble/Matchers/HaveCount.swift; sourceTree = "<group>"; };
 		44297C60BAE50CC1C73D95A549036385 /* Cartography-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Cartography-dummy.m"; sourceTree = "<group>"; };
 		455193E89B93608EBE2E78E2C904538D /* DSL.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DSL.h; path = Sources/NimbleObjectiveC/DSL.h; sourceTree = "<group>"; };
+		4592A9ED5874C0C68A43D5E2CB4292AC /* Pods-YelloTalkPrimeChecker.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-YelloTalkPrimeChecker.release.xcconfig"; sourceTree = "<group>"; };
 		45D20A66E5D9352DEF06768126A9EFDD /* LayoutGuide.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LayoutGuide.swift; path = Cartography/LayoutGuide.swift; sourceTree = "<group>"; };
-		4BB25FC81235A55699DF10230D01ACE0 /* Pods-YelloTalkPrimeChecker-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-YelloTalkPrimeChecker-acknowledgements.plist"; sourceTree = "<group>"; };
+		4A4B17E117B4B9616B6BF94E7C987BC4 /* Pods-YelloTalkPrimeCheckerUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-YelloTalkPrimeCheckerUITests.modulemap"; sourceTree = "<group>"; };
 		4C4565DCDBCF1D63C176859FA6FC7A33 /* Nimble.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Nimble.xcconfig; sourceTree = "<group>"; };
 		509BE375131B11667276E9AA47C12181 /* NMBExpectation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NMBExpectation.swift; path = Sources/Nimble/Adapters/NMBExpectation.swift; sourceTree = "<group>"; };
+		51858FBE9FDDF50C3641D3545B051355 /* Pods-YelloTalkPrimeCheckerTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-YelloTalkPrimeCheckerTests.modulemap"; sourceTree = "<group>"; };
+		51A56B04E5472B0FC4260DC08CD9A963 /* Pods-YelloTalkPrimeChecker.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-YelloTalkPrimeChecker.modulemap"; sourceTree = "<group>"; };
 		5243AF4109E6830237D8558973E1CC75 /* NMBStringify.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NMBStringify.m; path = Sources/NimbleObjectiveC/NMBStringify.m; sourceTree = "<group>"; };
-		5730413C1F721958130B31A71E039B6F /* Pods-YelloTalkPrimeCheckerUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-YelloTalkPrimeCheckerUITests.release.xcconfig"; sourceTree = "<group>"; };
 		5795663021523641A0E1817BF846E677 /* Nimble-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Nimble-umbrella.h"; sourceTree = "<group>"; };
 		580517D9B8833B02698B525F4736BB74 /* Stringers.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Stringers.swift; path = Sources/Nimble/Utils/Stringers.swift; sourceTree = "<group>"; };
 		5A2576BE5BD9581F86B7670CF5E26906 /* NMBExceptionCapture.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NMBExceptionCapture.m; path = Sources/NimbleObjectiveC/NMBExceptionCapture.m; sourceTree = "<group>"; };
@@ -208,19 +204,23 @@
 		5E630C4098DE889B19A4138EAAD1F300 /* Nimble.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Nimble.h; path = Sources/Nimble/Nimble.h; sourceTree = "<group>"; };
 		5EAA60DC8E10C3F8BD74970BF8C5A3E5 /* LayoutSupportProxy.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LayoutSupportProxy.swift; path = Cartography/LayoutSupportProxy.swift; sourceTree = "<group>"; };
 		5F33BF92C679D1B3DB9587898AC2D010 /* AllPass.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AllPass.swift; path = Sources/Nimble/Matchers/AllPass.swift; sourceTree = "<group>"; };
+		5FF538BEDDF52EEB88B1AC1E92717F62 /* Pods-YelloTalkPrimeCheckerUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-YelloTalkPrimeCheckerUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		61618FC10306F19B3E003E85B987D6C4 /* Pods-YelloTalkPrimeChecker-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-YelloTalkPrimeChecker-Info.plist"; sourceTree = "<group>"; };
 		64D8B7BC8D3F091354474B4BBDBF5D49 /* BeCloseTo.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BeCloseTo.swift; path = Sources/Nimble/Matchers/BeCloseTo.swift; sourceTree = "<group>"; };
 		65631C67B794934983167AF3967CB3B7 /* ThrowError.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ThrowError.swift; path = Sources/Nimble/Matchers/ThrowError.swift; sourceTree = "<group>"; };
 		656D46E744C5207D368EAC74737EB725 /* Expression.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Expression.swift; path = Sources/Nimble/Expression.swift; sourceTree = "<group>"; };
 		674112187919EA07AC765C03348BF34F /* Dimension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Dimension.swift; path = Cartography/Dimension.swift; sourceTree = "<group>"; };
 		684CD625FE81DE9DF76F4F4CBBA06A01 /* CwlCatchException.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CwlCatchException.swift; path = Carthage/Checkouts/CwlPreconditionTesting/Dependencies/CwlCatchException/Sources/CwlCatchException/CwlCatchException.swift; sourceTree = "<group>"; };
+		687C08740A999D9085BFE13C0C15A01C /* Pods-YelloTalkPrimeChecker-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-YelloTalkPrimeChecker-dummy.m"; sourceTree = "<group>"; };
 		696502724239D91EF66314E67825D806 /* ThrowAssertion.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ThrowAssertion.swift; path = Sources/Nimble/Matchers/ThrowAssertion.swift; sourceTree = "<group>"; };
 		6D9C09AA89DAA9F7B6A324D1B687BD4B /* CwlBadInstructionException.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CwlBadInstructionException.swift; path = Carthage/Checkouts/CwlPreconditionTesting/Sources/CwlPreconditionTesting/CwlBadInstructionException.swift; sourceTree = "<group>"; };
+		723413C863C762E9A98B64E8AAE0CF48 /* Pods-YelloTalkPrimeChecker-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-YelloTalkPrimeChecker-umbrella.h"; sourceTree = "<group>"; };
 		72F0EB05DE102E32EAC7896A9376E61B /* View.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = View.swift; path = Cartography/View.swift; sourceTree = "<group>"; };
-		73E541EC044D724558419B3299F16FE5 /* Pods-YelloTalkPrimeCheckerUITests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-YelloTalkPrimeCheckerUITests-Info.plist"; sourceTree = "<group>"; };
-		76A3057D04734BD4EED34F05800C408A /* Pods-YelloTalkPrimeCheckerTests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-YelloTalkPrimeCheckerTests-Info.plist"; sourceTree = "<group>"; };
 		775147E510693EFF1DE5302E03B55CA6 /* Edges.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Edges.swift; path = Cartography/Edges.swift; sourceTree = "<group>"; };
 		78A15CFCCB811D09B8710F6F8318DB79 /* NMBObjCMatcher.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NMBObjCMatcher.swift; path = Sources/Nimble/Adapters/NMBObjCMatcher.swift; sourceTree = "<group>"; };
 		79975DDFCCADEC6EACC53979533560D0 /* BeVoid.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BeVoid.swift; path = Sources/Nimble/Matchers/BeVoid.swift; sourceTree = "<group>"; };
+		7A91671046DF8FE006330B9EC9FC71B7 /* Pods-YelloTalkPrimeCheckerUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-YelloTalkPrimeCheckerUITests-dummy.m"; sourceTree = "<group>"; };
+		7B17D31E353966CFD166802AD3E04A2A /* Pods-YelloTalkPrimeCheckerTests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-YelloTalkPrimeCheckerTests-Info.plist"; sourceTree = "<group>"; };
 		7B7DACED944710FC66628D4B963BCEBB /* NMBStringify.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NMBStringify.h; path = Sources/NimbleObjectiveC/NMBStringify.h; sourceTree = "<group>"; };
 		7B836A3C74E79EC368C1CF3FEA0B4820 /* AssertionRecorder.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AssertionRecorder.swift; path = Sources/Nimble/Adapters/AssertionRecorder.swift; sourceTree = "<group>"; };
 		7D26DD930C0717F9C938D34A5036335C /* Coefficients.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Coefficients.swift; path = Cartography/Coefficients.swift; sourceTree = "<group>"; };
@@ -234,12 +234,9 @@
 		87B21ED523B14892C36A4FE33FAA7278 /* NimbleEnvironment.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NimbleEnvironment.swift; path = Sources/Nimble/Adapters/NimbleEnvironment.swift; sourceTree = "<group>"; };
 		881775EF8134E24C05AD624BB11555B2 /* Await.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Await.swift; path = Sources/Nimble/Utils/Await.swift; sourceTree = "<group>"; };
 		8A8815050AE2710666ECCAC63362FF38 /* NMBExceptionCapture.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NMBExceptionCapture.h; path = Sources/NimbleObjectiveC/NMBExceptionCapture.h; sourceTree = "<group>"; };
-		8B8471236AC19660D5BC3B5EF5803355 /* Pods-YelloTalkPrimeCheckerUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-YelloTalkPrimeCheckerUITests-umbrella.h"; sourceTree = "<group>"; };
-		8BAC873AC1F9F6E4F5D5CA8A6C265DBF /* Pods-YelloTalkPrimeCheckerTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-YelloTalkPrimeCheckerTests-dummy.m"; sourceTree = "<group>"; };
 		8CB0B6ED50D0D22DBDA8FDF7B4CE0BCC /* CwlMachBadInstructionHandler.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CwlMachBadInstructionHandler.m; path = Carthage/Checkouts/CwlPreconditionTesting/Sources/CwlMachBadInstructionHandler/CwlMachBadInstructionHandler.m; sourceTree = "<group>"; };
 		8DBF686BC444AD99868652BF577812CA /* ExpectationMessage.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ExpectationMessage.swift; path = Sources/Nimble/ExpectationMessage.swift; sourceTree = "<group>"; };
 		9156A3683A0DC9D0303DEFA65A40320E /* BeLogical.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BeLogical.swift; path = Sources/Nimble/Matchers/BeLogical.swift; sourceTree = "<group>"; };
-		92F8CC0456C50AC3133236F91E0FE1F4 /* Pods-YelloTalkPrimeCheckerTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-YelloTalkPrimeCheckerTests.release.xcconfig"; sourceTree = "<group>"; };
 		9381D4741329C1A0D0152D3B7C50A18F /* LayoutItem.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LayoutItem.swift; path = Cartography/LayoutItem.swift; sourceTree = "<group>"; };
 		945DA5BAB393B51567D2240B011DD272 /* Constrain.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Constrain.swift; path = Cartography/Constrain.swift; sourceTree = "<group>"; };
 		95BF02A5D879760AA0A809B2B40DE5B3 /* Async.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Async.swift; path = Sources/Nimble/Matchers/Async.swift; sourceTree = "<group>"; };
@@ -249,62 +246,58 @@
 		9D3138DCADC9F6A33AB3406946595A33 /* SatisfyAnyOf.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SatisfyAnyOf.swift; path = Sources/Nimble/Matchers/SatisfyAnyOf.swift; sourceTree = "<group>"; };
 		9D5366BEE66946F5DE094CF6D65C57FE /* Size.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Size.swift; path = Cartography/Size.swift; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		9DBBD72EEA1EE8B7B37D8C745C73FCE1 /* Pods-YelloTalkPrimeChecker-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-YelloTalkPrimeChecker-Info.plist"; sourceTree = "<group>"; };
 		9DE89D91B94995F31DE2B28A880E56CF /* BeAKindOf.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BeAKindOf.swift; path = Sources/Nimble/Matchers/BeAKindOf.swift; sourceTree = "<group>"; };
-		A0A6895984D8A1FEC177D1D6F0478CA1 /* Pods-YelloTalkPrimeChecker-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-YelloTalkPrimeChecker-acknowledgements.markdown"; sourceTree = "<group>"; };
 		A73BE782ED2EBEBA96AB10C995253367 /* DSL+Wait.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "DSL+Wait.swift"; path = "Sources/Nimble/DSL+Wait.swift"; sourceTree = "<group>"; };
+		A77AF170CEE16C2255D6994E137F9AF6 /* Pods-YelloTalkPrimeCheckerTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-YelloTalkPrimeCheckerTests-dummy.m"; sourceTree = "<group>"; };
 		A77D0BD5138B16283BB782B9DA218B09 /* ConstraintGroup.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintGroup.swift; path = Cartography/ConstraintGroup.swift; sourceTree = "<group>"; };
 		ACB1CC674E66ACBDD233D8EB7CDD42CD /* Pods_YelloTalkPrimeCheckerTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_YelloTalkPrimeCheckerTests.framework; path = "Pods-YelloTalkPrimeCheckerTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AE8A494614B88B5FA818A515408DD07A /* MatchError.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MatchError.swift; path = Sources/Nimble/Matchers/MatchError.swift; sourceTree = "<group>"; };
-		AEC42308F46D8EE1A1A6FE6DC9382A19 /* Pods-YelloTalkPrimeCheckerTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-YelloTalkPrimeCheckerTests.debug.xcconfig"; sourceTree = "<group>"; };
 		AF78447CF19E8CC09CA040E00FB70A5D /* NimbleXCTestHandler.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NimbleXCTestHandler.swift; path = Sources/Nimble/Adapters/NimbleXCTestHandler.swift; sourceTree = "<group>"; };
 		AFD786E41371C7D8EDB6102FB617A0C4 /* Contain.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Contain.swift; path = Sources/Nimble/Matchers/Contain.swift; sourceTree = "<group>"; };
 		B0090D4861D9F0FE6F60B77BD029ED0A /* Expression.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Expression.swift; path = Cartography/Expression.swift; sourceTree = "<group>"; };
+		B08C10464041390F5F01B10F1212B7B1 /* Pods-YelloTalkPrimeCheckerUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-YelloTalkPrimeCheckerUITests-umbrella.h"; sourceTree = "<group>"; };
 		B0D4F0D6D6AA702AA1C0E7D1BA98EBFE /* LayoutGuideProxy.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LayoutGuideProxy.swift; path = Cartography/LayoutGuideProxy.swift; sourceTree = "<group>"; };
+		B0E5BD0284EBEE35B3D4E23B173AF762 /* Pods-YelloTalkPrimeChecker-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-YelloTalkPrimeChecker-acknowledgements.markdown"; sourceTree = "<group>"; };
+		B1584EB22A0EF75130BB7D337A95C60C /* Pods-YelloTalkPrimeCheckerTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-YelloTalkPrimeCheckerTests.debug.xcconfig"; sourceTree = "<group>"; };
 		B4EBA9EF760E2B7716732F8774253B8C /* ElementsEqual.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ElementsEqual.swift; path = Sources/Nimble/Matchers/ElementsEqual.swift; sourceTree = "<group>"; };
 		B5CDC0C6612543C430E7A029915871EB /* EndWith.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = EndWith.swift; path = Sources/Nimble/Matchers/EndWith.swift; sourceTree = "<group>"; };
-		B64FF91C550B9FE59CEE456AD4603002 /* Pods-YelloTalkPrimeCheckerUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-YelloTalkPrimeCheckerUITests.modulemap"; sourceTree = "<group>"; };
+		B75C3226A1DE9436C8607F84C3CB9732 /* Pods-YelloTalkPrimeCheckerTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-YelloTalkPrimeCheckerTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		B94E7FDE4FC2722F12B1216F5AF3AC12 /* Pods-YelloTalkPrimeCheckerTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-YelloTalkPrimeCheckerTests-frameworks.sh"; sourceTree = "<group>"; };
 		BAE263041362D074978BB3B577DF0A05 /* Nimble.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Nimble.framework; path = Nimble.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BBD9B57B2591E7EE23FA85139D8550BB /* BeIdenticalTo.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BeIdenticalTo.swift; path = Sources/Nimble/Matchers/BeIdenticalTo.swift; sourceTree = "<group>"; };
 		BBF20235C3267C10759A2178FBF3E219 /* MatcherFunc.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MatcherFunc.swift; path = Sources/Nimble/Matchers/MatcherFunc.swift; sourceTree = "<group>"; };
 		BC03A3A3226219A8650DD55F2D690B6D /* AutoresizingMaskLayoutProxy.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AutoresizingMaskLayoutProxy.swift; path = Cartography/AutoresizingMaskLayoutProxy.swift; sourceTree = "<group>"; };
-		BC3D3E91328E7C602D53AC1705E86835 /* Pods-YelloTalkPrimeChecker.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-YelloTalkPrimeChecker.debug.xcconfig"; sourceTree = "<group>"; };
 		BCE3EB45260927F34B85CD64C6F96F9F /* mach_excServer.c */ = {isa = PBXFileReference; includeInIndex = 1; name = mach_excServer.c; path = Carthage/Checkouts/CwlPreconditionTesting/Sources/CwlMachBadInstructionHandler/mach_excServer.c; sourceTree = "<group>"; };
+		BD1361E861FD0D08E2542D4EF04530D0 /* Pods-YelloTalkPrimeCheckerTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-YelloTalkPrimeCheckerTests-umbrella.h"; sourceTree = "<group>"; };
 		C4697BDF5C2CFF4BBF2666A6174C1283 /* BeLessThan.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BeLessThan.swift; path = Sources/Nimble/Matchers/BeLessThan.swift; sourceTree = "<group>"; };
 		C5522C64FB39D486D930F9E0CB2E9CCC /* BeEmpty.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BeEmpty.swift; path = Sources/Nimble/Matchers/BeEmpty.swift; sourceTree = "<group>"; };
 		C6357B050FBF4379777245C35704A5F8 /* Point.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Point.swift; path = Cartography/Point.swift; sourceTree = "<group>"; };
 		C714C7579F0AC7AFA362E70F2A8C2D79 /* Cartography-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Cartography-prefix.pch"; sourceTree = "<group>"; };
+		C7F5B1A4C695D01DD7463699E8450EDF /* Pods-YelloTalkPrimeCheckerTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-YelloTalkPrimeCheckerTests.release.xcconfig"; sourceTree = "<group>"; };
 		C8F35384125C5B05720E663756BE449B /* LayoutProxy.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LayoutProxy.swift; path = Cartography/LayoutProxy.swift; sourceTree = "<group>"; };
-		C98357149EF152D8911D8BC035642AF4 /* Pods-YelloTalkPrimeChecker-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-YelloTalkPrimeChecker-umbrella.h"; sourceTree = "<group>"; };
 		CA074A1249123FC3C11F2A9A05895534 /* RaisesException.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RaisesException.swift; path = Sources/Nimble/Matchers/RaisesException.swift; sourceTree = "<group>"; };
 		CD9668380AA73E5E3311BE403B9993A8 /* Equal.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Equal.swift; path = Sources/Nimble/Matchers/Equal.swift; sourceTree = "<group>"; };
 		CDCE748DE641DCBE75EEC9DD25CB873E /* Align.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Align.swift; path = Cartography/Align.swift; sourceTree = "<group>"; };
 		D273223A8710E4081AA459A6A5F2BD97 /* ViewProxy.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ViewProxy.swift; path = Cartography/ViewProxy.swift; sourceTree = "<group>"; };
 		D49AD87BE88AD319B33EF9D62A148EBA /* FailureMessage.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FailureMessage.swift; path = Sources/Nimble/FailureMessage.swift; sourceTree = "<group>"; };
+		D52E37D93ADDB497F8BDE17A8AED8E79 /* Pods-YelloTalkPrimeChecker.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-YelloTalkPrimeChecker.debug.xcconfig"; sourceTree = "<group>"; };
 		D62E570CB3E2472A456FF9B8D5ADEDE5 /* Compound.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Compound.swift; path = Cartography/Compound.swift; sourceTree = "<group>"; };
 		D71E1890B25ABCFC2A8CCDEF22D786E5 /* Nimble-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Nimble-Info.plist"; sourceTree = "<group>"; };
-		D9F81B6D955E002C9CC6C61617E9180F /* Pods-YelloTalkPrimeChecker-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-YelloTalkPrimeChecker-frameworks.sh"; sourceTree = "<group>"; };
+		D8B00DC223915E905853113AA81CC8EA /* Pods-YelloTalkPrimeCheckerUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-YelloTalkPrimeCheckerUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		DCA90906F3252B0AFF4BEF2DEF7AEB06 /* Predicate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Predicate.swift; path = Sources/Nimble/Matchers/Predicate.swift; sourceTree = "<group>"; };
 		E2AA693F0717B72F4236C231894EA697 /* CwlCatchException.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CwlCatchException.m; path = Carthage/Checkouts/CwlPreconditionTesting/Dependencies/CwlCatchException/Sources/CwlCatchExceptionSupport/CwlCatchException.m; sourceTree = "<group>"; };
 		E408ACE35CBDE6F98093714083520B16 /* DSL.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DSL.m; path = Sources/NimbleObjectiveC/DSL.m; sourceTree = "<group>"; };
-		E4F5C2C89F91B6928AF932571650070C /* Pods-YelloTalkPrimeCheckerUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-YelloTalkPrimeCheckerUITests-dummy.m"; sourceTree = "<group>"; };
+		E66592A17FDE22DD1F4BAAD32CE8B24D /* Pods-YelloTalkPrimeCheckerUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-YelloTalkPrimeCheckerUITests.release.xcconfig"; sourceTree = "<group>"; };
 		E7EC4E4F2D439F8B87A63F5CC32222C4 /* Functional.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Functional.swift; path = Sources/Nimble/Utils/Functional.swift; sourceTree = "<group>"; };
-		F463662FFDE30902FA65968DC410D0C3 /* Pods-YelloTalkPrimeCheckerTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-YelloTalkPrimeCheckerTests.modulemap"; sourceTree = "<group>"; };
+		F027784D0131AD660D86B0CA8B6224A8 /* Pods-YelloTalkPrimeCheckerTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-YelloTalkPrimeCheckerTests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		F6D9A6DA0079861542C8C847377438E2 /* Errors.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Errors.swift; path = Sources/Nimble/Utils/Errors.swift; sourceTree = "<group>"; };
 		F6DDDB93962F3A22F8C9939BB274C211 /* Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Extensions.swift; path = Cartography/Extensions.swift; sourceTree = "<group>"; };
 		F9DD44EC7CCB94F3BC06597B7E52080A /* Constraint.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Constraint.swift; path = Cartography/Constraint.swift; sourceTree = "<group>"; };
+		FB2FBB4B010524F6DD551C1234E235AB /* Pods-YelloTalkPrimeChecker-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-YelloTalkPrimeChecker-acknowledgements.plist"; sourceTree = "<group>"; };
 		FECE343F98678A6CE21225C953DB5749 /* SourceLocation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SourceLocation.swift; path = Sources/Nimble/Utils/SourceLocation.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		4FCEB1F58B6F2807C886E784AF19D6A8 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				AEA1608C200A67D70846FD211CA4653A /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		55C81EE76C6A69F1F69792A679310C68 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -313,11 +306,19 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		742E88BB41C075006B089B9B2A491817 /* Frameworks */ = {
+		6D87F38F6E2D06DB2E35427FD0F57B00 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				58D58849290F3029BAA411BB7B8E4409 /* Foundation.framework in Frameworks */,
+				1F19CDCA747497E6B58E6EC36A22EB34 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA0E17F000A6FDC3898F0D2BB9EABC97 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				213FD1EDA9D248774F292ED67B0CD2C7 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -340,20 +341,37 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		12BC11A859B04A20F1E92DACF81B19A9 /* Pods-YelloTalkPrimeCheckerUITests */ = {
+		0309D4A3ACE646B9BE785CF617A90414 /* Pods-YelloTalkPrimeCheckerUITests */ = {
 			isa = PBXGroup;
 			children = (
-				B64FF91C550B9FE59CEE456AD4603002 /* Pods-YelloTalkPrimeCheckerUITests.modulemap */,
-				213C048E57AD59437F38B439114AC613 /* Pods-YelloTalkPrimeCheckerUITests-acknowledgements.markdown */,
-				33F9DE5D7ABB241DD15B0A85F0BD8A39 /* Pods-YelloTalkPrimeCheckerUITests-acknowledgements.plist */,
-				E4F5C2C89F91B6928AF932571650070C /* Pods-YelloTalkPrimeCheckerUITests-dummy.m */,
-				73E541EC044D724558419B3299F16FE5 /* Pods-YelloTalkPrimeCheckerUITests-Info.plist */,
-				8B8471236AC19660D5BC3B5EF5803355 /* Pods-YelloTalkPrimeCheckerUITests-umbrella.h */,
-				20FC4FAF7A081CBABDBD6ECA6B992DA6 /* Pods-YelloTalkPrimeCheckerUITests.debug.xcconfig */,
-				5730413C1F721958130B31A71E039B6F /* Pods-YelloTalkPrimeCheckerUITests.release.xcconfig */,
+				4A4B17E117B4B9616B6BF94E7C987BC4 /* Pods-YelloTalkPrimeCheckerUITests.modulemap */,
+				5FF538BEDDF52EEB88B1AC1E92717F62 /* Pods-YelloTalkPrimeCheckerUITests-acknowledgements.markdown */,
+				1D2730359BC7BA0AADBE16F6C6F12411 /* Pods-YelloTalkPrimeCheckerUITests-acknowledgements.plist */,
+				7A91671046DF8FE006330B9EC9FC71B7 /* Pods-YelloTalkPrimeCheckerUITests-dummy.m */,
+				0035733FDF110963C628F48932E2C2E0 /* Pods-YelloTalkPrimeCheckerUITests-Info.plist */,
+				B08C10464041390F5F01B10F1212B7B1 /* Pods-YelloTalkPrimeCheckerUITests-umbrella.h */,
+				D8B00DC223915E905853113AA81CC8EA /* Pods-YelloTalkPrimeCheckerUITests.debug.xcconfig */,
+				E66592A17FDE22DD1F4BAAD32CE8B24D /* Pods-YelloTalkPrimeCheckerUITests.release.xcconfig */,
 			);
 			name = "Pods-YelloTalkPrimeCheckerUITests";
 			path = "Target Support Files/Pods-YelloTalkPrimeCheckerUITests";
+			sourceTree = "<group>";
+		};
+		1AB47BC46022CE728AF5625C6F44BDF9 /* Pods-YelloTalkPrimeCheckerTests */ = {
+			isa = PBXGroup;
+			children = (
+				51858FBE9FDDF50C3641D3545B051355 /* Pods-YelloTalkPrimeCheckerTests.modulemap */,
+				F027784D0131AD660D86B0CA8B6224A8 /* Pods-YelloTalkPrimeCheckerTests-acknowledgements.markdown */,
+				B75C3226A1DE9436C8607F84C3CB9732 /* Pods-YelloTalkPrimeCheckerTests-acknowledgements.plist */,
+				A77AF170CEE16C2255D6994E137F9AF6 /* Pods-YelloTalkPrimeCheckerTests-dummy.m */,
+				B94E7FDE4FC2722F12B1216F5AF3AC12 /* Pods-YelloTalkPrimeCheckerTests-frameworks.sh */,
+				7B17D31E353966CFD166802AD3E04A2A /* Pods-YelloTalkPrimeCheckerTests-Info.plist */,
+				BD1361E861FD0D08E2542D4EF04530D0 /* Pods-YelloTalkPrimeCheckerTests-umbrella.h */,
+				B1584EB22A0EF75130BB7D337A95C60C /* Pods-YelloTalkPrimeCheckerTests.debug.xcconfig */,
+				C7F5B1A4C695D01DD7463699E8450EDF /* Pods-YelloTalkPrimeCheckerTests.release.xcconfig */,
+			);
+			name = "Pods-YelloTalkPrimeCheckerTests";
+			path = "Target Support Files/Pods-YelloTalkPrimeCheckerTests";
 			sourceTree = "<group>";
 		};
 		4AA9C2161568CEC7BCC51EE4F6F346B0 /* Cartography */ = {
@@ -404,22 +422,6 @@
 			);
 			name = "Support Files";
 			path = "../Target Support Files/Nimble";
-			sourceTree = "<group>";
-		};
-		5EDFFFBA12B2B5FFE2311077DC737820 /* Pods-YelloTalkPrimeCheckerTests */ = {
-			isa = PBXGroup;
-			children = (
-				F463662FFDE30902FA65968DC410D0C3 /* Pods-YelloTalkPrimeCheckerTests.modulemap */,
-				2F7F9162CDFFD48E2E04EFA96BFE005F /* Pods-YelloTalkPrimeCheckerTests-acknowledgements.markdown */,
-				32847670FB39F4B415D7C60235AE385B /* Pods-YelloTalkPrimeCheckerTests-acknowledgements.plist */,
-				8BAC873AC1F9F6E4F5D5CA8A6C265DBF /* Pods-YelloTalkPrimeCheckerTests-dummy.m */,
-				76A3057D04734BD4EED34F05800C408A /* Pods-YelloTalkPrimeCheckerTests-Info.plist */,
-				0E9A312509F1B60550296C80BFE87F2A /* Pods-YelloTalkPrimeCheckerTests-umbrella.h */,
-				AEC42308F46D8EE1A1A6FE6DC9382A19 /* Pods-YelloTalkPrimeCheckerTests.debug.xcconfig */,
-				92F8CC0456C50AC3133236F91E0FE1F4 /* Pods-YelloTalkPrimeCheckerTests.release.xcconfig */,
-			);
-			name = "Pods-YelloTalkPrimeCheckerTests";
-			path = "Target Support Files/Pods-YelloTalkPrimeCheckerTests";
 			sourceTree = "<group>";
 		};
 		686C1147F3D7406421A2E3B55CF55EB0 /* Products */ = {
@@ -542,7 +544,7 @@
 				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
 				EB40D8251D61B9CAA05809704E00D08E /* Pods */,
 				686C1147F3D7406421A2E3B55CF55EB0 /* Products */,
-				EABD62098713805742348A7EF6564502 /* Targets Support Files */,
+				E1EB01EF57F5691CFDCDC975A28C510C /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
@@ -554,12 +556,29 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		EABD62098713805742348A7EF6564502 /* Targets Support Files */ = {
+		D70E2283CC039DBCF6D27FF770883794 /* Pods-YelloTalkPrimeChecker */ = {
 			isa = PBXGroup;
 			children = (
-				F6257B08F7B9FFB0984C97327FCFB372 /* Pods-YelloTalkPrimeChecker */,
-				5EDFFFBA12B2B5FFE2311077DC737820 /* Pods-YelloTalkPrimeCheckerTests */,
-				12BC11A859B04A20F1E92DACF81B19A9 /* Pods-YelloTalkPrimeCheckerUITests */,
+				51A56B04E5472B0FC4260DC08CD9A963 /* Pods-YelloTalkPrimeChecker.modulemap */,
+				B0E5BD0284EBEE35B3D4E23B173AF762 /* Pods-YelloTalkPrimeChecker-acknowledgements.markdown */,
+				FB2FBB4B010524F6DD551C1234E235AB /* Pods-YelloTalkPrimeChecker-acknowledgements.plist */,
+				687C08740A999D9085BFE13C0C15A01C /* Pods-YelloTalkPrimeChecker-dummy.m */,
+				01A004A9F0BB52E58C2E6B8D2D9398F7 /* Pods-YelloTalkPrimeChecker-frameworks.sh */,
+				61618FC10306F19B3E003E85B987D6C4 /* Pods-YelloTalkPrimeChecker-Info.plist */,
+				723413C863C762E9A98B64E8AAE0CF48 /* Pods-YelloTalkPrimeChecker-umbrella.h */,
+				D52E37D93ADDB497F8BDE17A8AED8E79 /* Pods-YelloTalkPrimeChecker.debug.xcconfig */,
+				4592A9ED5874C0C68A43D5E2CB4292AC /* Pods-YelloTalkPrimeChecker.release.xcconfig */,
+			);
+			name = "Pods-YelloTalkPrimeChecker";
+			path = "Target Support Files/Pods-YelloTalkPrimeChecker";
+			sourceTree = "<group>";
+		};
+		E1EB01EF57F5691CFDCDC975A28C510C /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				D70E2283CC039DBCF6D27FF770883794 /* Pods-YelloTalkPrimeChecker */,
+				1AB47BC46022CE728AF5625C6F44BDF9 /* Pods-YelloTalkPrimeCheckerTests */,
+				0309D4A3ACE646B9BE785CF617A90414 /* Pods-YelloTalkPrimeCheckerUITests */,
 			);
 			name = "Targets Support Files";
 			sourceTree = "<group>";
@@ -571,23 +590,6 @@
 				C2882443C0D1A726CC225A71F09DDCF1 /* Nimble */,
 			);
 			name = Pods;
-			sourceTree = "<group>";
-		};
-		F6257B08F7B9FFB0984C97327FCFB372 /* Pods-YelloTalkPrimeChecker */ = {
-			isa = PBXGroup;
-			children = (
-				2C27852B70F72A8AF760CA52978C9608 /* Pods-YelloTalkPrimeChecker.modulemap */,
-				A0A6895984D8A1FEC177D1D6F0478CA1 /* Pods-YelloTalkPrimeChecker-acknowledgements.markdown */,
-				4BB25FC81235A55699DF10230D01ACE0 /* Pods-YelloTalkPrimeChecker-acknowledgements.plist */,
-				16E2FC4C688118F039BFC025E1688DA9 /* Pods-YelloTalkPrimeChecker-dummy.m */,
-				D9F81B6D955E002C9CC6C61617E9180F /* Pods-YelloTalkPrimeChecker-frameworks.sh */,
-				9DBBD72EEA1EE8B7B37D8C745C73FCE1 /* Pods-YelloTalkPrimeChecker-Info.plist */,
-				C98357149EF152D8911D8BC035642AF4 /* Pods-YelloTalkPrimeChecker-umbrella.h */,
-				BC3D3E91328E7C602D53AC1705E86835 /* Pods-YelloTalkPrimeChecker.debug.xcconfig */,
-				34D75AC95C7C1F59BEDBBC8663EFDB3D /* Pods-YelloTalkPrimeChecker.release.xcconfig */,
-			);
-			name = "Pods-YelloTalkPrimeChecker";
-			path = "Target Support Files/Pods-YelloTalkPrimeChecker";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -617,11 +619,11 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		6035F589B655E51792192D6E4C2BB5DC /* Headers */ = {
+		7FC3E7CA12035C26036224E435BC3A40 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				29B85CD11095CA59D41585B58525E80D /* Pods-YelloTalkPrimeChecker-umbrella.h in Headers */,
+				365A5154FAAD0ACDAE639448318EB088 /* Pods-YelloTalkPrimeChecker-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -633,11 +635,11 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E0F8975D13497D8EEE2C6BDD040E6069 /* Headers */ = {
+		BD2A3C4C2AF0A094DEF2AA9EAFE8D712 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F06E628F9F6B7DA33C15664C2843DC7B /* Pods-YelloTalkPrimeCheckerTests-umbrella.h in Headers */,
+				0E66F1181EB6828FDFFC52F404F3A5C0 /* Pods-YelloTalkPrimeCheckerTests-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -646,18 +648,17 @@
 /* Begin PBXNativeTarget section */
 		0F6BC40B15AF4D3484A113BACF5FEE47 /* Pods-YelloTalkPrimeChecker */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 9DDFDB6A3CB90FC173838927A9F4A04F /* Build configuration list for PBXNativeTarget "Pods-YelloTalkPrimeChecker" */;
+			buildConfigurationList = BAB7D19C35F86CF931BE4D3BEC3A69B8 /* Build configuration list for PBXNativeTarget "Pods-YelloTalkPrimeChecker" */;
 			buildPhases = (
-				6035F589B655E51792192D6E4C2BB5DC /* Headers */,
-				E1FCCE227BFEA49517709B6D2D2991D3 /* Sources */,
-				4FCEB1F58B6F2807C886E784AF19D6A8 /* Frameworks */,
-				869C2CCAA141FB25C9538049F154FDAF /* Resources */,
+				7FC3E7CA12035C26036224E435BC3A40 /* Headers */,
+				988BFE5F1BBE68F77358DF321813F494 /* Sources */,
+				6D87F38F6E2D06DB2E35427FD0F57B00 /* Frameworks */,
+				4859D93658E1BDC5E89B9B0FFD9EC86F /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				2216B48880087CF8AEB410DA8C6FD631 /* PBXTargetDependency */,
-				26C48E49805C6771A241E9A3C486D7EC /* PBXTargetDependency */,
+				3D704B28AE11EE8A31B4640B0F99876A /* PBXTargetDependency */,
 			);
 			name = "Pods-YelloTalkPrimeChecker";
 			productName = "Pods-YelloTalkPrimeChecker";
@@ -721,17 +722,18 @@
 		};
 		D04A82F76AD91B8D5FC25319956C3A8C /* Pods-YelloTalkPrimeCheckerTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 9A352A13CADAA113E832B0DA5E98BD96 /* Build configuration list for PBXNativeTarget "Pods-YelloTalkPrimeCheckerTests" */;
+			buildConfigurationList = A4B25B6AE5E65CDC5FE7C68F029832E7 /* Build configuration list for PBXNativeTarget "Pods-YelloTalkPrimeCheckerTests" */;
 			buildPhases = (
-				E0F8975D13497D8EEE2C6BDD040E6069 /* Headers */,
-				C3BAC6BE0B91FEC9E3982371157CB51F /* Sources */,
-				742E88BB41C075006B089B9B2A491817 /* Frameworks */,
-				8061C2C03682EC140341BCA7EFDF9722 /* Resources */,
+				BD2A3C4C2AF0A094DEF2AA9EAFE8D712 /* Headers */,
+				E03AE1999AAA05F3D9F36C0E7987C2D2 /* Sources */,
+				BA0E17F000A6FDC3898F0D2BB9EABC97 /* Frameworks */,
+				029106539B2D63EC4E633CB1C04F51C6 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				8CD23C1B30ED52028AC0057367B68906 /* PBXTargetDependency */,
+				0B4AE17CECF8FD6E3283AF49F2ABA183 /* PBXTargetDependency */,
+				7D5D1462F8C921233AE9C31EB32D7BF7 /* PBXTargetDependency */,
 			);
 			name = "Pods-YelloTalkPrimeCheckerTests";
 			productName = "Pods-YelloTalkPrimeCheckerTests";
@@ -769,6 +771,13 @@
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		029106539B2D63EC4E633CB1C04F51C6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		0494EAECB70698D0181EB734A6A3AC82 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -776,7 +785,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		8061C2C03682EC140341BCA7EFDF9722 /* Resources */ = {
+		4859D93658E1BDC5E89B9B0FFD9EC86F /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -784,13 +793,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		8599344C0C36267B95C6547C212704E4 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		869C2CCAA141FB25C9538049F154FDAF /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -850,11 +852,11 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C3BAC6BE0B91FEC9E3982371157CB51F /* Sources */ = {
+		988BFE5F1BBE68F77358DF321813F494 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CF4F070F33C0D1EE87CBF106200220D1 /* Pods-YelloTalkPrimeCheckerTests-dummy.m in Sources */,
+				ABD32133AD8B36B27DA34556BF28DD7C /* Pods-YelloTalkPrimeChecker-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -928,11 +930,11 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E1FCCE227BFEA49517709B6D2D2991D3 /* Sources */ = {
+		E03AE1999AAA05F3D9F36C0E7987C2D2 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				10C125AD4CC98CDEE8D77DACE8EC5035 /* Pods-YelloTalkPrimeChecker-dummy.m in Sources */,
+				F7CD8AD39286CB4AD5A90E8678320A8F /* Pods-YelloTalkPrimeCheckerTests-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -945,23 +947,23 @@
 			target = 0F6BC40B15AF4D3484A113BACF5FEE47 /* Pods-YelloTalkPrimeChecker */;
 			targetProxy = 75D30AC53A683C882539A9621D04F1B9 /* PBXContainerItemProxy */;
 		};
-		2216B48880087CF8AEB410DA8C6FD631 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = Cartography;
-			target = 8FBDBAAAB58D03FB5BB194A7F5231422 /* Cartography */;
-			targetProxy = B4C8B2EE0D742F1990C60D7ADFF728DE /* PBXContainerItemProxy */;
-		};
-		26C48E49805C6771A241E9A3C486D7EC /* PBXTargetDependency */ = {
+		0B4AE17CECF8FD6E3283AF49F2ABA183 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = Nimble;
 			target = 6F13695E06195A78EA8A95F8C7ED0D2F /* Nimble */;
-			targetProxy = FC50205A88D000B7433E271BD8F562F3 /* PBXContainerItemProxy */;
+			targetProxy = E06825D3F43A9D6B738EA69CCA26C6A6 /* PBXContainerItemProxy */;
 		};
-		8CD23C1B30ED52028AC0057367B68906 /* PBXTargetDependency */ = {
+		3D704B28AE11EE8A31B4640B0F99876A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Cartography;
+			target = 8FBDBAAAB58D03FB5BB194A7F5231422 /* Cartography */;
+			targetProxy = 42189AE751F497AAE7421490B9C41918 /* PBXContainerItemProxy */;
+		};
+		7D5D1462F8C921233AE9C31EB32D7BF7 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "Pods-YelloTalkPrimeChecker";
 			target = 0F6BC40B15AF4D3484A113BACF5FEE47 /* Pods-YelloTalkPrimeChecker */;
-			targetProxy = 78D40FAF25E2A9DB1E56C7A557336063 /* PBXContainerItemProxy */;
+			targetProxy = 3BA795CED243376921DFF67D34BB7931 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -1028,7 +1030,7 @@
 		};
 		16DC9441F612D2801D59C97DDF4792A3 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5730413C1F721958130B31A71E039B6F /* Pods-YelloTalkPrimeCheckerUITests.release.xcconfig */;
+			baseConfigurationReference = E66592A17FDE22DD1F4BAAD32CE8B24D /* Pods-YelloTalkPrimeCheckerUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -1064,6 +1066,44 @@
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
+		};
+		23F3063BBABB008C241652F42E327781 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D52E37D93ADDB497F8BDE17A8AED8E79 /* Pods-YelloTalkPrimeChecker.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-YelloTalkPrimeChecker/Pods-YelloTalkPrimeChecker-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-YelloTalkPrimeChecker/Pods-YelloTalkPrimeChecker.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
 		};
 		2B64DE0B81B4CB28B7442A2074F845CE /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -1135,9 +1175,9 @@
 			};
 			name = Release;
 		};
-		68BBE03C5D9F1F4D7308ADB1CF977CC1 /* Release */ = {
+		971D146FC8A5CAFFD47AA32E1498B04A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 92F8CC0456C50AC3133236F91E0FE1F4 /* Pods-YelloTalkPrimeCheckerTests.release.xcconfig */;
+			baseConfigurationReference = C7F5B1A4C695D01DD7463699E8450EDF /* Pods-YelloTalkPrimeCheckerTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -1174,9 +1214,9 @@
 			};
 			name = Release;
 		};
-		6F2CBDC3552AA28E64FDB62CA451E450 /* Debug */ = {
+		98A7ED6C05A7AEF5A08156C7EB028A5D /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = AEC42308F46D8EE1A1A6FE6DC9382A19 /* Pods-YelloTalkPrimeCheckerTests.debug.xcconfig */;
+			baseConfigurationReference = B1584EB22A0EF75130BB7D337A95C60C /* Pods-YelloTalkPrimeCheckerTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -1247,45 +1287,6 @@
 			};
 			name = Release;
 		};
-		AC0E3E60AC4DFAD2792BE552ECF2431A /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 34D75AC95C7C1F59BEDBBC8663EFDB3D /* Pods-YelloTalkPrimeChecker.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-YelloTalkPrimeChecker/Pods-YelloTalkPrimeChecker-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-YelloTalkPrimeChecker/Pods-YelloTalkPrimeChecker.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
 		AD2AD31EC3C15EAE0D0E559DC4B59B3A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 332287F23F3D94A2C923AE56291FA065 /* Cartography.xcconfig */;
@@ -1321,9 +1322,9 @@
 			};
 			name = Debug;
 		};
-		ADC17A15198B74F3F68934909141A9CB /* Debug */ = {
+		E19E89A12D3EE230D73863580F9106FF /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = BC3D3E91328E7C602D53AC1705E86835 /* Pods-YelloTalkPrimeChecker.debug.xcconfig */;
+			baseConfigurationReference = 4592A9ED5874C0C68A43D5E2CB4292AC /* Pods-YelloTalkPrimeChecker.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -1354,10 +1355,11 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Debug;
+			name = Release;
 		};
 		ED7888FA6713EABBF66D26A8003AD1CA /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -1425,7 +1427,7 @@
 		};
 		F9F46C795434822E706469C1989D6602 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 20FC4FAF7A081CBABDBD6ECA6B992DA6 /* Pods-YelloTalkPrimeCheckerUITests.debug.xcconfig */;
+			baseConfigurationReference = D8B00DC223915E905853113AA81CC8EA /* Pods-YelloTalkPrimeCheckerUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -1482,15 +1484,6 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		9A352A13CADAA113E832B0DA5E98BD96 /* Build configuration list for PBXNativeTarget "Pods-YelloTalkPrimeCheckerTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				6F2CBDC3552AA28E64FDB62CA451E450 /* Debug */,
-				68BBE03C5D9F1F4D7308ADB1CF977CC1 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		9AC65E53333ACA93EEB1D8EBAB58CBB6 /* Build configuration list for PBXNativeTarget "Nimble" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -1500,11 +1493,20 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		9DDFDB6A3CB90FC173838927A9F4A04F /* Build configuration list for PBXNativeTarget "Pods-YelloTalkPrimeChecker" */ = {
+		A4B25B6AE5E65CDC5FE7C68F029832E7 /* Build configuration list for PBXNativeTarget "Pods-YelloTalkPrimeCheckerTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				ADC17A15198B74F3F68934909141A9CB /* Debug */,
-				AC0E3E60AC4DFAD2792BE552ECF2431A /* Release */,
+				98A7ED6C05A7AEF5A08156C7EB028A5D /* Debug */,
+				971D146FC8A5CAFFD47AA32E1498B04A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BAB7D19C35F86CF931BE4D3BEC3A69B8 /* Build configuration list for PBXNativeTarget "Pods-YelloTalkPrimeChecker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				23F3063BBABB008C241652F42E327781 /* Debug */,
+				E19E89A12D3EE230D73863580F9106FF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

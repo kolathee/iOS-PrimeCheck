@@ -6,12 +6,12 @@ target 'YelloTalkPrimeChecker' do
   use_frameworks!
 
   # Pods for YelloTalkPrimeChecker
-  pod 'Cartography'
-  pod 'Nimble'
+	pod 'Cartography'
 
   target 'YelloTalkPrimeCheckerTests' do
     inherit! :search_paths
     # Pods for testing
+	pod 'Nimble'
   end
 
   target 'YelloTalkPrimeCheckerUITests' do
