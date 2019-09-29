@@ -17,7 +17,6 @@ class HomeViewController: BaseViewController {
     override var identifier: String { "homeViewController" }
     
     /// View
-
     @IBOutlet weak var resultCircle: UIImageView!
     @IBOutlet weak var resultLabel: UILabel!
     @IBOutlet weak var numberTextField: UITextField!
@@ -35,8 +34,11 @@ class HomeViewController: BaseViewController {
         self.setupHomepage()
     }
     
-    func setupHomepage() {
+    override func viewWillAppear(_ animated: Bool) {
         self.setupNavigation()
+    }
+    
+    func setupHomepage() {
         self.setupOthers()
     }
     
@@ -67,4 +69,5 @@ extension HomeViewController {
         /// Submit Button
         submitButton.rounded(by: 5)
     }
+    
 }

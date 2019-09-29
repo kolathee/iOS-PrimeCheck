@@ -1,15 +1,16 @@
 //
-//  HomeViewModel.swift
+//  SearchResult.swift
 //  YelloTalkPrimeChecker
 //
 //  Created by Kolathee Payuhawatthana on 29/9/19.
 //  Copyright © 2019 Kolathee Payuhawatthana. All rights reserved.
 //
 
-import UIKit
+import Foundation
 
-class HomeViewModel {
+struct SearchResult {
     
-    var searchResultList: [searchResult] = []
+    var number: Int
+    var isPrime: Bool
     
 }
