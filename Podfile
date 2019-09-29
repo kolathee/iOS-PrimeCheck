@@ -7,6 +7,7 @@ target 'YelloTalkPrimeChecker' do
 
   # Pods for YelloTalkPrimeChecker
   pod 'Cartography'
+  pod 'Nimble'
 
   target 'YelloTalkPrimeCheckerTests' do
     inherit! :search_paths
