@@ -26,6 +26,17 @@
 		A44C10582340C64400E5CABE /* + UIButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = A44C10572340C64400E5CABE /* + UIButton.swift */; };
 		A44C105C2340F73C00E5CABE /* + Int.swift in Sources */ = {isa = PBXBuildFile; fileRef = A44C105B2340F73C00E5CABE /* + Int.swift */; };
 		A44C105E2341051D00E5CABE /* CheckedResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = A44C105D2341051D00E5CABE /* CheckedResult.swift */; };
+		A44C1063234130F800E5CABE /* PrimeCheckerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A44C1062234130F800E5CABE /* PrimeCheckerTests.swift */; };
+		A44C10642341358100E5CABE /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A431A47223409BF500310D55 /* HomeViewController.swift */; };
+		A44C1065234135B500E5CABE /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A44DADE023409F6F00C64E46 /* BaseViewController.swift */; };
+		A44C1066234135B900E5CABE /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A431A47423409C0B00310D55 /* HomeViewModel.swift */; };
+		A44C1067234135BF00E5CABE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A431A43C2340904600310D55 /* Main.storyboard */; };
+		A44C1068234135D000E5CABE /* BasicTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A44C10522340BF6F00E5CABE /* BasicTableViewCell.swift */; };
+		A44C1069234135D400E5CABE /* BasicTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A44C10532340BF6F00E5CABE /* BasicTableViewCell.xib */; };
+		A44C106A234135DD00E5CABE /* CheckedResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = A44C105D2341051D00E5CABE /* CheckedResult.swift */; };
+		A44C106B234135E300E5CABE /* + UIButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = A44C10572340C64400E5CABE /* + UIButton.swift */; };
+		A44C106C234135E600E5CABE /* + Int.swift in Sources */ = {isa = PBXBuildFile; fileRef = A44C105B2340F73C00E5CABE /* + Int.swift */; };
+		A44C106D2341360100E5CABE /* HistoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A44C10502340BD3100E5CABE /* HistoryViewController.swift */; };
 		A44DADE123409F6F00C64E46 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A44DADE023409F6F00C64E46 /* BaseViewController.swift */; };
 		A44DADE22340B5A000C64E46 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A431A4382340904600310D55 /* SceneDelegate.swift */; };
 /* End PBXBuildFile section */
@@ -76,6 +87,7 @@
 		A44C10572340C64400E5CABE /* + UIButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "+ UIButton.swift"; sourceTree = "<group>"; };
 		A44C105B2340F73C00E5CABE /* + Int.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "+ Int.swift"; sourceTree = "<group>"; };
 		A44C105D2341051D00E5CABE /* CheckedResult.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckedResult.swift; sourceTree = "<group>"; };
+		A44C1062234130F800E5CABE /* PrimeCheckerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrimeCheckerTests.swift; sourceTree = "<group>"; };
 		A44DADE023409F6F00C64E46 /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
 		A546BD81311072E11E4C1674 /* Pods_YelloTalkPrimeChecker.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YelloTalkPrimeChecker.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A56007B5B6384A93FD75F4DE /* Pods_YelloTalkPrimeCheckerTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YelloTalkPrimeCheckerTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -168,6 +180,7 @@
 		A431A44C2340904800310D55 /* YelloTalkPrimeCheckerTests */ = {
 			isa = PBXGroup;
 			children = (
+				A44C1062234130F800E5CABE /* PrimeCheckerTests.swift */,
 				A431A44D2340904800310D55 /* YelloTalkPrimeCheckerTests.swift */,
 				A431A44F2340904800310D55 /* Info.plist */,
 			);
@@ -396,6 +409,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A44C1069234135D400E5CABE /* BasicTableViewCell.xib in Resources */,
+				A44C1067234135BF00E5CABE /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -534,8 +549,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A44C106B234135E300E5CABE /* + UIButton.swift in Sources */,
+				A44C1065234135B500E5CABE /* BaseViewController.swift in Sources */,
+				A44C1066234135B900E5CABE /* HomeViewModel.swift in Sources */,
+				A44C1063234130F800E5CABE /* PrimeCheckerTests.swift in Sources */,
+				A44C106C234135E600E5CABE /* + Int.swift in Sources */,
+				A44C106D2341360100E5CABE /* HistoryViewController.swift in Sources */,
 				A431A44E2340904800310D55 /* YelloTalkPrimeCheckerTests.swift in Sources */,
+				A44C106A234135DD00E5CABE /* CheckedResult.swift in Sources */,
 				A44DADE22340B5A000C64E46 /* SceneDelegate.swift in Sources */,
+				A44C10642341358100E5CABE /* HomeViewController.swift in Sources */,
+				A44C1068234135D000E5CABE /* BasicTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
