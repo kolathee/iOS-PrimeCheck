@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14868" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14868" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14824"/>
@@ -42,7 +42,7 @@
                                         </constraints>
                                         <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
                                         <state key="normal" title="Submit">
-                                            <color key="titleColor" red="0.42713730569948183" green="0.42713730569948183" blue="0.42713730569948183" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <color key="titleColor" red="0.38182075777202074" green="0.38182075777202074" blue="0.38182075777202074" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         </state>
                                     </button>
                                 </subviews>
@@ -65,10 +65,49 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
+                    <connections>
+                        <outlet property="numberTextField" destination="lXe-Fr-5pf" id="PG6-iE-em9"/>
+                        <outlet property="resultView" destination="7Zk-sS-wP5" id="sC3-2r-dj9"/>
+                        <outlet property="submitButton" destination="Z1C-dE-Cpe" id="i9t-te-yeW"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-191.30434782608697" y="81.696428571428569"/>
+        </scene>
+        <!--History View Controller-->
+        <scene sceneID="IGP-je-KF7">
+            <objects>
+                <viewController storyboardIdentifier="historyViewController" id="fts-5P-9ge" customClass="HistoryViewController" customModule="YelloTalkPrimeChecker" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="i0J-pr-DNe">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="0Je-Pm-T5T">
+                                <rect key="frame" x="0.0" y="44" width="414" height="818"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                <connections>
+                                    <outlet property="dataSource" destination="fts-5P-9ge" id="q5g-6U-lgC"/>
+                                    <outlet property="delegate" destination="fts-5P-9ge" id="MNa-Kd-gND"/>
+                                </connections>
+                            </tableView>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="0Je-Pm-T5T" firstAttribute="leading" secondItem="0xV-sH-h6o" secondAttribute="leading" id="0XA-aA-lA3"/>
+                            <constraint firstItem="0xV-sH-h6o" firstAttribute="trailing" secondItem="0Je-Pm-T5T" secondAttribute="trailing" id="Aa3-Ce-QTN"/>
+                            <constraint firstItem="0Je-Pm-T5T" firstAttribute="top" secondItem="0xV-sH-h6o" secondAttribute="top" id="HXN-qi-tJr"/>
+                            <constraint firstItem="0xV-sH-h6o" firstAttribute="bottom" secondItem="0Je-Pm-T5T" secondAttribute="bottom" id="LfI-Vy-dAB"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="0xV-sH-h6o"/>
+                    </view>
+                    <connections>
+                        <outlet property="tableView" destination="0Je-Pm-T5T" id="G5P-yY-5Fh"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Ccd-xw-8zy" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="612" y="82"/>
         </scene>
     </scenes>
 </document>

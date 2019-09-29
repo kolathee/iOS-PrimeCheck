@@ -16,6 +16,11 @@ class HomeViewController: BaseViewController {
     override var storyboardName: String { "Main" }
     override var identifier: String { "homeViewController" }
     
+    /// View
+    @IBOutlet weak var resultView: UIImageView!
+    @IBOutlet weak var numberTextField: UITextField!
+    @IBOutlet weak var submitButton: UIButton!
+    
     /// ViewModel & Data
     let HomeVM = HomeViewModel()
 
