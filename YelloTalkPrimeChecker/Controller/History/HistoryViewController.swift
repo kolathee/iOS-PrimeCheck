@@ -19,6 +19,9 @@ class HistoryViewController: BaseViewController {
     @IBOutlet weak var tableView: UITableView!
     
     var isNavBarHidden = false
+    
+    /// Data
+    var resultHistory: [CheckedResult] = []
 
 // MARK: - Init
     
@@ -67,12 +70,22 @@ extension HistoryViewController {
 extension HistoryViewController: UITableViewDataSource {
     
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return 10
+        return resultHistory.count
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         if let cell = tableView.dequeueReusableCell(withIdentifier: BasicTableViewCell.identifier, for: indexPath) as? BasicTableViewCell {
-            return cell
+            let result = resultHistory[indexPath.row]
+            if result.isPrime {
+                cell.historyLabel.text = " \(result.number) is prime number"
+                cell.signView.image = UIImage(systemName: "checkmark.circle.fill")
+                return cell
+            } else {
+                cell.historyLabel.text = " \(result.number) is not prime number"
+                cell.signView.image = UIImage(systemName: "xmark.circle.fill")
+                cell.signView.tintColor = UIColor.red
+                return cell
+            }
         } else {
             return UITableViewCell()
         }

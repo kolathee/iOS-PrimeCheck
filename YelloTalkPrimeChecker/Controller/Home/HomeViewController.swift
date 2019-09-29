@@ -17,15 +17,14 @@ class HomeViewController: BaseViewController {
     override var identifier: String { "homeViewController" }
     
     /// View
-    @IBOutlet weak var resultCircle: UIImageView!
-    @IBOutlet weak var resultLabel: UILabel!
+    @IBOutlet weak var resultButton: UIButton!
     @IBOutlet weak var numberTextField: UITextField!
     @IBOutlet weak var submitButton: UIButton!
     
     var isNavBarHidden = true
     
     /// ViewModel & Data
-    let HomeVM = HomeViewModel()
+    let homeVM = HomeViewModel()
 
 // MARK: - Init
     
@@ -45,8 +44,35 @@ class HomeViewController: BaseViewController {
 // MARK: - Actions
     
     @IBAction func submitButtonTapped(_ sender: Any) {
-        /// Create HistoryVC
-        let historyVC = HistoryViewController.shared.initiateView()
+        /// Check if it is Integer
+        if let num = Int(self.numberTextField.text ?? "") {
+            let result = CheckedResult(number: num, isPrime: num.isPrime())
+            homeVM.checkedResultList.append(result)
+            changeResultView(isPrime: num.isPrime())
+        /// If not show alert
+        } else {
+            let closeButton = UIAlertAction(title: "ok", style: .cancel, handler: nil)
+            let alert = UIAlertController(title: "Wrong format",
+                                          message: "Please try again",
+                                          preferredStyle: .alert)
+            alert.addAction(closeButton)
+            self.present(alert, animated: true)
+        }
+    }
+    
+    func changeResultView(isPrime result: Bool) {
+        if result == true {
+            resultButton.tintColor = UIColor.blue
+            resultButton.titleLabel?.text = "Prime"
+        } else {
+            resultButton.tintColor = UIColor.red
+            resultButton.titleLabel?.text = "Not Prime"
+        }
+    }
+    
+    @IBAction func resultButtonTapped(_ sender: Any) {
+        let historyVC = HistoryViewController.shared.initiateView() as! HistoryViewController
+        historyVC.resultHistory = homeVM.checkedResultList
         self.navigationController?.pushViewController(historyVC, animated: true)
     }
     
@@ -68,6 +94,7 @@ extension HomeViewController {
     func setupOthers() {
         /// Submit Button
         submitButton.rounded(by: 5)
+        resultButton.titleLabel?.textAlignment = .center
     }
     
 }

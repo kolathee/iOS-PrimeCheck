@@ -10,6 +10,6 @@ import UIKit
 
 class HomeViewModel {
     
-    var searchResultList: [searchResult] = []
+    var checkedResultList: [CheckedResult] = []
     
 }

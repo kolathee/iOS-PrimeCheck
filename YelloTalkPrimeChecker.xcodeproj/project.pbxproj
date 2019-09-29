@@ -25,7 +25,7 @@
 		A44C10552340BF6F00E5CABE /* BasicTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A44C10532340BF6F00E5CABE /* BasicTableViewCell.xib */; };
 		A44C10582340C64400E5CABE /* + UIButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = A44C10572340C64400E5CABE /* + UIButton.swift */; };
 		A44C105C2340F73C00E5CABE /* + Int.swift in Sources */ = {isa = PBXBuildFile; fileRef = A44C105B2340F73C00E5CABE /* + Int.swift */; };
-		A44C105E2341051D00E5CABE /* SearchResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = A44C105D2341051D00E5CABE /* SearchResult.swift */; };
+		A44C105E2341051D00E5CABE /* CheckedResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = A44C105D2341051D00E5CABE /* CheckedResult.swift */; };
 		A44DADE123409F6F00C64E46 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A44DADE023409F6F00C64E46 /* BaseViewController.swift */; };
 		A44DADE22340B5A000C64E46 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A431A4382340904600310D55 /* SceneDelegate.swift */; };
 /* End PBXBuildFile section */
@@ -75,7 +75,7 @@
 		A44C10532340BF6F00E5CABE /* BasicTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = BasicTableViewCell.xib; sourceTree = "<group>"; };
 		A44C10572340C64400E5CABE /* + UIButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "+ UIButton.swift"; sourceTree = "<group>"; };
 		A44C105B2340F73C00E5CABE /* + Int.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "+ Int.swift"; sourceTree = "<group>"; };
-		A44C105D2341051D00E5CABE /* SearchResult.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchResult.swift; sourceTree = "<group>"; };
+		A44C105D2341051D00E5CABE /* CheckedResult.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckedResult.swift; sourceTree = "<group>"; };
 		A44DADE023409F6F00C64E46 /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
 		A546BD81311072E11E4C1674 /* Pods_YelloTalkPrimeChecker.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YelloTalkPrimeChecker.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A56007B5B6384A93FD75F4DE /* Pods_YelloTalkPrimeCheckerTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YelloTalkPrimeCheckerTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -219,7 +219,7 @@
 		A431A46B23409A2B00310D55 /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				A44C105D2341051D00E5CABE /* SearchResult.swift */,
+				A44C105D2341051D00E5CABE /* CheckedResult.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -516,7 +516,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A44C105E2341051D00E5CABE /* SearchResult.swift in Sources */,
+				A44C105E2341051D00E5CABE /* CheckedResult.swift in Sources */,
 				A44C10582340C64400E5CABE /* + UIButton.swift in Sources */,
 				A44C105C2340F73C00E5CABE /* + Int.swift in Sources */,
 				A44C10542340BF6F00E5CABE /* BasicTableViewCell.swift in Sources */,

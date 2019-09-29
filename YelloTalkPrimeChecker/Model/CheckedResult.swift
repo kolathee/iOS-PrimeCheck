@@ -1,5 +1,5 @@
 //
-//  SearchResult.swift
+//  CheckedResult.swift
 //  YelloTalkPrimeChecker
 //
 //  Created by Kolathee Payuhawatthana on 29/9/19.
@@ -8,7 +8,7 @@
 
 import Foundation
 
-struct SearchResult {
+struct CheckedResult {
     
     var number: Int
     var isPrime: Bool
