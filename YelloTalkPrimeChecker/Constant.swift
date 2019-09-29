@@ -6,4 +6,14 @@
 //  Copyright © 2019 Kolathee Payuhawatthana. All rights reserved.
 //
 
-import Foundation
+import UIKit
+
+// MARK: - Storyboards & Identifier
+
+enum Storyboards: String {
+    case Main
+}
+
+enum ViewControllerID: String {
+    case homeViewController
+}

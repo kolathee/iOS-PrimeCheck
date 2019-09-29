@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -12,12 +12,12 @@
 		7E8947BA9E4A8551050BC6DA /* Pods_YelloTalkPrimeChecker.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A546BD81311072E11E4C1674 /* Pods_YelloTalkPrimeChecker.framework */; };
 		A431A4372340904600310D55 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A431A4362340904600310D55 /* AppDelegate.swift */; };
 		A431A4392340904600310D55 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A431A4382340904600310D55 /* SceneDelegate.swift */; };
-		A431A43B2340904600310D55 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A431A43A2340904600310D55 /* ViewController.swift */; };
 		A431A43E2340904600310D55 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A431A43C2340904600310D55 /* Main.storyboard */; };
 		A431A4402340904800310D55 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A431A43F2340904800310D55 /* Assets.xcassets */; };
 		A431A4432340904800310D55 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A431A4412340904800310D55 /* LaunchScreen.storyboard */; };
 		A431A44E2340904800310D55 /* YelloTalkPrimeCheckerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A431A44D2340904800310D55 /* YelloTalkPrimeCheckerTests.swift */; };
 		A431A4592340904800310D55 /* YelloTalkPrimeCheckerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A431A4582340904800310D55 /* YelloTalkPrimeCheckerUITests.swift */; };
+		A431A47023409A7600310D55 /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = A431A46F23409A7600310D55 /* Constant.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,7 +47,6 @@
 		A431A4332340904600310D55 /* YelloTalkPrimeChecker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YelloTalkPrimeChecker.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A431A4362340904600310D55 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A431A4382340904600310D55 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		A431A43A2340904600310D55 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		A431A43D2340904600310D55 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A431A43F2340904800310D55 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A431A4422340904800310D55 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -58,6 +57,7 @@
 		A431A4542340904800310D55 /* YelloTalkPrimeCheckerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YelloTalkPrimeCheckerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A431A4582340904800310D55 /* YelloTalkPrimeCheckerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YelloTalkPrimeCheckerUITests.swift; sourceTree = "<group>"; };
 		A431A45A2340904800310D55 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A431A46F23409A7600310D55 /* Constant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constant.swift; sourceTree = "<group>"; };
 		A546BD81311072E11E4C1674 /* Pods_YelloTalkPrimeChecker.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YelloTalkPrimeChecker.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A56007B5B6384A93FD75F4DE /* Pods_YelloTalkPrimeCheckerTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YelloTalkPrimeCheckerTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BD454FF301D2382D6FCF137F /* Pods-YelloTalkPrimeCheckerUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YelloTalkPrimeCheckerUITests.release.xcconfig"; path = "Target Support Files/Pods-YelloTalkPrimeCheckerUITests/Pods-YelloTalkPrimeCheckerUITests.release.xcconfig"; sourceTree = "<group>"; };
@@ -101,7 +101,6 @@
 				1326E7758077D411D0BF5E19 /* Pods-YelloTalkPrimeCheckerUITests.debug.xcconfig */,
 				BD454FF301D2382D6FCF137F /* Pods-YelloTalkPrimeCheckerUITests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -130,9 +129,16 @@
 		A431A4352340904600310D55 /* YelloTalkPrimeChecker */ = {
 			isa = PBXGroup;
 			children = (
+				A431A46F23409A7600310D55 /* Constant.swift */,
 				A431A4362340904600310D55 /* AppDelegate.swift */,
 				A431A4382340904600310D55 /* SceneDelegate.swift */,
-				A431A43A2340904600310D55 /* ViewController.swift */,
+				A431A46D23409A4200310D55 /* Extension */,
+				A431A46A23409A1E00310D55 /* API Service */,
+				A431A46C23409A3000310D55 /* JSONStub */,
+				A431A46B23409A2B00310D55 /* Model */,
+				A431A46923409A0F00310D55 /* UI */,
+				A431A468234099E200310D55 /* View */,
+				A431A467234099D900310D55 /* Controller */,
 				A431A43C2340904600310D55 /* Main.storyboard */,
 				A431A43F2340904800310D55 /* Assets.xcassets */,
 				A431A4412340904800310D55 /* LaunchScreen.storyboard */,
@@ -157,6 +163,55 @@
 				A431A45A2340904800310D55 /* Info.plist */,
 			);
 			path = YelloTalkPrimeCheckerUITests;
+			sourceTree = "<group>";
+		};
+		A431A467234099D900310D55 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		A431A468234099E200310D55 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		A431A46923409A0F00310D55 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		A431A46A23409A1E00310D55 /* API Service */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "API Service";
+			sourceTree = "<group>";
+		};
+		A431A46B23409A2B00310D55 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		A431A46C23409A3000310D55 /* JSONStub */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = JSONStub;
+			sourceTree = "<group>";
+		};
+		A431A46D23409A4200310D55 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Extension;
 			sourceTree = "<group>";
 		};
 		F525B2B023F96C4D6B9CEDF4 /* Frameworks */ = {
@@ -390,9 +445,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A431A43B2340904600310D55 /* ViewController.swift in Sources */,
 				A431A4372340904600310D55 /* AppDelegate.swift in Sources */,
 				A431A4392340904600310D55 /* SceneDelegate.swift in Sources */,
+				A431A47023409A7600310D55 /* Constant.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
