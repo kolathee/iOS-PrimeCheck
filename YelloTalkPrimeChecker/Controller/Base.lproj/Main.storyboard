@@ -51,8 +51,8 @@
                                 </constraints>
                             </stackView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Prime Calculator" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="F6F-ej-Njz">
-                                <rect key="frame" x="101" y="124" width="212" height="36"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                <rect key="frame" x="94.5" y="124" width="225" height="36"/>
+                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="30"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
@@ -68,12 +68,20 @@
                                     <action selector="resultButtonTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="m6X-p2-5Yv"/>
                                 </connections>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="For Interview at Yellotalk Only" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="IZF-cr-g8b">
+                                <rect key="frame" x="94" y="164" width="226" height="20.5"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.77712111398963735" green="0.77712111398963735" blue="0.77712111398963735" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <constraints>
                             <constraint firstItem="F6F-ej-Njz" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="1yk-WB-bOj"/>
+                            <constraint firstItem="IZF-cr-g8b" firstAttribute="top" secondItem="F6F-ej-Njz" secondAttribute="bottom" constant="4" id="9hg-dy-Qfv"/>
                             <constraint firstItem="CXH-iF-cDU" firstAttribute="top" secondItem="F6F-ej-Njz" secondAttribute="bottom" constant="80" id="FhC-8a-F8T"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="rF1-zK-8hc" secondAttribute="trailing" constant="20" id="GRc-E8-Uro"/>
+                            <constraint firstItem="IZF-cr-g8b" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="KC3-cP-aQG"/>
                             <constraint firstItem="CXH-iF-cDU" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="cLm-ZN-YSN"/>
                             <constraint firstItem="rF1-zK-8hc" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="eQj-bf-TBk"/>
                             <constraint firstItem="rF1-zK-8hc" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="fNS-iH-rQt"/>
