@@ -22,7 +22,6 @@ extension Int {
         /// and then check 4 to √n
         let endNumber = (self < 16) ? (self - 1) : Int(Double(self).squareRoot())
         for checker in 4...endNumber {
-            print(checker)
             if self % checker == 0 { return false }
         }
         return true

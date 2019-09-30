@@ -63,10 +63,10 @@ class HomeViewController: BaseViewController {
     func changeResultView(isPrime result: Bool) {
         if result == true {
             resultButton.tintColor = UIColor.blue
-            resultButton.titleLabel?.text = "Prime"
+            resultButton.setTitle("Prime", for: .normal)
         } else {
             resultButton.tintColor = UIColor.red
-            resultButton.titleLabel?.text = "Not Prime"
+            resultButton.setTitle("Not Prime", for: .normal)
         }
     }
     
@@ -95,6 +95,8 @@ extension HomeViewController {
         /// Submit Button
         submitButton.rounded(by: 5)
         resultButton.titleLabel?.textAlignment = .center
+        resultButton.titleLabel?.numberOfLines = 0
+        resultButton.titleLabel?.lineBreakMode = NSLineBreakMode.byWordWrapping
     }
     
 }

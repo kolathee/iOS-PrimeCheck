@@ -42,7 +42,7 @@ class HistoryViewController: BaseViewController {
 extension HistoryViewController {
     
     func setupNavigation() {    self.navigationController?.setNavigationBarHidden(self.isNavBarHidden, animated: true)
-        self.navigationItem.title = "Search History"
+        self.navigationItem.title = "History"
     }
 
 }

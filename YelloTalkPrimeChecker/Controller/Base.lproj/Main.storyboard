@@ -23,7 +23,7 @@
                                         <constraints>
                                             <constraint firstAttribute="height" constant="54" id="ICe-f9-5s2"/>
                                         </constraints>
-                                        <color key="textColor" systemColor="systemGrayColor" red="0.5568627451" green="0.5568627451" blue="0.57647058819999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <color key="textColor" systemColor="systemGrayColor" red="0.55686274509803924" green="0.55686274509803924" blue="0.57647058823529407" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                         <textInputTraits key="textInputTraits"/>
                                     </textField>
@@ -62,7 +62,7 @@
                                     <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="240" id="KFq-p8-DhD"/>
                                     <constraint firstAttribute="height" constant="240" id="PaD-RV-4qa"/>
                                 </constraints>
-                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="45"/>
+                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="40"/>
                                 <state key="normal" title="Result" backgroundImage="circle.fill" catalog="system"/>
                                 <connections>
                                     <action selector="resultButtonTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="m6X-p2-5Yv"/>
