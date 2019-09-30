@@ -22,6 +22,9 @@ class HistoryViewController: BaseViewController {
     
     /// Data
     var resultHistory: [CheckedResult] = []
+    var recentHistory: [CheckedResult] {
+        return resultHistory.reversed()
+    }
 
 // MARK: - Init
     
@@ -76,12 +79,12 @@ extension HistoryViewController: UITableViewDelegate {
 extension HistoryViewController: UITableViewDataSource {
     
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return resultHistory.count
+        return 10
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         if let cell = tableView.dequeueReusableCell(withIdentifier: BasicTableViewCell.identifier, for: indexPath) as? BasicTableViewCell {
-            let result = resultHistory[indexPath.row]
+            let result = recentHistory[indexPath.row]
             if result.isPrime {
                 cell.historyLabel.text = " \(result.number) is prime number"
                 cell.signView.image = UIImage(systemName: "checkmark.circle.fill")
