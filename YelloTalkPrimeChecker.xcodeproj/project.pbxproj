@@ -273,8 +273,8 @@
 		A44C10562340BF8000E5CABE /* Table */ = {
 			isa = PBXGroup;
 			children = (
-				A44C10522340BF6F00E5CABE /* BasicTableViewCell.swift */,
 				A44C10532340BF6F00E5CABE /* BasicTableViewCell.xib */,
+				A44C10522340BF6F00E5CABE /* BasicTableViewCell.swift */,
 			);
 			path = Table;
 			sourceTree = "<group>";
