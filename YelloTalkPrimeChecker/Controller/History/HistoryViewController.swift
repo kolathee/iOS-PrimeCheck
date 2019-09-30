@@ -67,6 +67,12 @@ extension HistoryViewController {
     }
 }
 
+extension HistoryViewController: UITableViewDelegate {
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        return tableView.deselectRow(at: indexPath, animated: true)
+    }
+}
+
 extension HistoryViewController: UITableViewDataSource {
     
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
